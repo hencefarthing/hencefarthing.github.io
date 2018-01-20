@@ -35,7 +35,7 @@ breatheoften:
   > Yeah the explanation for the side button tap should be considered
   > a straight up bug -- I had to google what to do.
 
-These remarks caught my attention because a technically-savvy family member was confused by the same thing the first time they tried to buy an app on their new iPhone X. They showed me the phone [with the "Double Click to Pay" animation][a]<sup id="fnr1-2017-12-28">[1]</sup> and asked me, "What am I supposed to double click here? It doesn't work." What they had tried was double tapping on the "Double Click to Pay" label on screen. When I explained that the animation was pointing to the physical side button, the proverbial light bulb turned on.
+These remarks caught my attention because a technically-savvy family member was confused by the same thing the first time they tried to buy an app on their new iPhone X. They showed me the phone [with the "Double Click to Pay" animation][a]<sup id="fnr1-2017-12-28">[^]</sup> and asked me, "What am I supposed to double click here? It doesn't work." What they had tried was double tapping on the "Double Click to Pay" label on screen. When I explained that the animation was pointing to the physical side button, the proverbial light bulb turned on.
 
 This is an interesting design dilemma. The reason why Apple requires you to press the physical side button to confirm a purchase with Apple Pay or in the App Store is because pressing the side button can't be faked by an app. If it was an on-screen button, a nefarious app could present a fake Apple Pay button. With any normal app, clicking the side button once will always lock the screen, and double-clicking will put you in Apple Pay mode. Only Apple's own software can override the side button like this. Double clicking the side button to confirm a purchase effectively guarantees that it was a legitimate payment experience.
 
@@ -112,6 +112,6 @@ I'm not sure what the solution here is, but I think Apple needs to come up with 
 </ol>
 </div>
 
-[1]: #fn1-2017-12-28
+[^]: #fn1-2017-12-28
 
 
