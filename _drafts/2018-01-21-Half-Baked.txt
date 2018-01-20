@@ -1,0 +1,16 @@
+---
+layout: post
+title: Half-Baking the Half-Baked
+---
+
+# Half-Baking the Half-Baked
+I know I ~~promised~~ mentioned some post on half-baking things. So I’ll first mention I just half-baked some delicious peppermint chocolate chip cookies to technically fulfill that promise.  
+And then I will quickly move along to something different because its ~~my~~ our blog and I’ll do what ~~I~~ we want! And now we will quickly move along to…  
+
+---
+## The Future of the Website
+First, let’s be perfectly clear in establishing one thing: Alex and I have no idea what we’re doing. I know diddly about making/running websites, and I only know a couple things about writing. Alex definitely knows more about making websites, coding, and attracting an audience, and its arguable he knows more about writing. But we are both still n00bs. And in light of that, the website is currently running on Squarespace because I heard about it on a podcast and I’m a sucker.  
+
+Squarespace is a great platform, and I have run some other websites off of it before! But it doesn’t play quite as nicely with my current ~~iOS-only~~ iOS-first computing style.
+
+Because we like to make things more difficult for ourselves, we are looking at switching to a blog hosted on [GitHub Pages]() with the assistance of [Jekyll](), but are running into the aforementioned issue of me having no idea what I’m doing. To make a short story long, I’ve changed my mind and have decided to do a series of posts about learning what I’m doing with html, css, Jekyll, GitHub, etc.. Hopefully 🤞🏼 this series will culminate with us switching the website over to this new platform, and me having a more workable solution to post from iOS.
