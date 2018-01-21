@@ -3,8 +3,7 @@ layout: post
 title: Pressing the Side Button to Confirm Payments on iPhone X
 ---
 
-  By John Gruber  
-  https://daringfireball.net/2017/12/side_button_to_confirm_payments_on_iphone_x  
+  [By John Gruber](https://daringfireball.net/2017/12/side_button_to_confirm_payments_on_iphone_x)  
   Thursday, 28 December 2017
 
 
