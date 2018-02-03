@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "bigfoot-default";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -106,10 +107,10 @@ strong, b {
   font-weight: bold;
 }
 
-sup { 
-  vertical-align: super;
-  font-size: 14px;
-}
+// sup { 
+//   vertical-align: super;
+//   font-size: 14px;
+// }
 
 img {
   max-width: 100%;
@@ -292,7 +293,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "bigfoot-default";
