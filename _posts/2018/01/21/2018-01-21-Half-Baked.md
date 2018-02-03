@@ -3,6 +3,7 @@ layout: post
 title: Half-Baking the Half-Baked
 date: 2018-01-21
 author: Logan G
+permalink: /2018/01/21/Half-Baked
 ---
 
 I know I ~~promised~~ mentioned some posts on half-baking things. So I’ll first mention I just one-and-a-half-baked some delicious peppermint chocolate chip cookies to technically fulfill that promise.  
