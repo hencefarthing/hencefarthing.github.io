@@ -85,3 +85,6 @@ exclude:
   - README.md
   - CNAME
   - _drafts
+
+include:
+  - _js
