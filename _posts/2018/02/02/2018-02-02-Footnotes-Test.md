@@ -2,6 +2,7 @@
 layout: post
 title: Footnotes Testing
 author: your momma
+Tags: testing
 ---
 
 See the footnote for something really important. [^1]  
