@@ -3,11 +3,7 @@
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     
-    <script type="text/javascript" src="/_js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/_js/bigfoot.js"></script>
-    <script type="text/javascript">
-        var bigfoot = $.bigfoot( {actionOriginalFN: "ignore", positionContent: "true" );
-    </script>
+    {% include head.html %}
 
     {% include meta.html %}
 
