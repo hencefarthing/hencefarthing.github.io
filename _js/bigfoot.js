@@ -1,6 +1,3 @@
----
-permalink: /_js/bigfoot.js
----
 (function() {
   (function($) {
     return $.bigfoot = function(options) {
