@@ -292,3 +292,12 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "bigfoot-default", // hello there
+        "layout",
+        "syntax-highlighting"
+;
