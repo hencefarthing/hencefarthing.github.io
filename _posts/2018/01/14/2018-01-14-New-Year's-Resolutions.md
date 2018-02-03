@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome!
+author: Logan G
 ---
 
 New Year’s Resolutions are the butt of every joke and seemingly doomed to fail. Last year I decided I would post a picture on Instagram every day to help me practice photography and get better at it. That lasted exactly 2 weeks.
