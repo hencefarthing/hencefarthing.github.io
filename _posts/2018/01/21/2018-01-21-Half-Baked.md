@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Half-Baking the Half-Baked
-date: 2017-01-21
+date: 2018-01-21
 author: Logan G
 ---
 
