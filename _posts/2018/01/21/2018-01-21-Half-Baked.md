@@ -15,4 +15,4 @@ Squarespace is a great platform, and I have run some other websites off of it be
 To make a short story long, I’ve changed my mind and have decided to do a series of posts about learning what I’m doing with html, css, Jekyll, GitHub, etc.. Hopefully (🤞🏼) this series will culminate with us switching the website over to this new platform, and me having a more workable solution to posting from iOS.
 
 the url for this is: 
-{{ post.url }}
+{{ page.url }}
