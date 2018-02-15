@@ -15,6 +15,9 @@ avatar: /images/404.jpg
 # Flags below are optional
 #
 
+url: https://www.yoursite.blog
+enforce_ssl: www.hencefarthing.blog
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
