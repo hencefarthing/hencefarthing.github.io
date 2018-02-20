@@ -4,7 +4,6 @@ author: Logan G
 layout: post
 categories: fiction
 ---
-# Writing and Improving
 I’ve often read & heard that the key to being a successful writer is to just write, and rely on practice makes perfect. And sometimes, when you don’t have any idea what to write, just start writing anyway. When Alex and I agreed to have a post done by Tuesday, I had no idea what I would write about. Tuesday is now six and a half hours away 😅 [^in my timezone of course, Alex is already there], so I better fallback to the timeless advice of start writing anyway.  
 However, while studiously ignoring both pieces of advice mentioned above, I stumbled across an short story I wrote from a couple years ago — one of the few older writing I have that I am still rather proud of. I thought it might be fun to reread it[^in a slightly edited form, some of my stylistic preferences have changed], and comment on some areas I did well, what needs to be improved, and areas that I find interesting for some reason. So without further ado, here is the story:  
 
