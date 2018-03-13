@@ -23,3 +23,11 @@ Other blogs:
    - the part I can take from this is some clarifications of the Levenshtein distance - maybe this is the direction I need to go
 2) http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata - not sure yet
 3) https://www.elastic.co/blog/found-fuzzy-search - maybe only useful when also using some expensive software 
+
+Existing Algorithms:
+1) https://gist.github.com/IceCreamYou/8396172 - javascript
+2) https://gist.github.com/doukremt/9473228 - C (**weighted edits possible**)
+   - JS converted: https://stackoverflow.com/questions/22308014/damerau-levenshtein-distance-implementation
+3) http://jsfiddle.net/soulwire/zf464/ - editable
+4) https://www.npmjs.com/package/damerau-levenshtein-js - node.js
+5) https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#JavaScript - not sure
