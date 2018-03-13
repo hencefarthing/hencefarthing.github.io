@@ -1,6 +1,6 @@
 # Fuzzy Searching
 
-What is it? Basically, trying to match words that are spelled differently. I'm particularly interested in this because I just tried to match 18,000 spreadsheet rows to data existing in a database. If I used a terrible algorithm (exact match), I would not get many matches because people often misspell, especially when names get converted between Arabic and English, which use different characters in the language.
+What is it? Basically, trying to match words that are spelled differently. I'm particularly interested in this because I just tried to match 21,000 spreadsheet rows to data existing in a database. If I used only a basic matching algorith (ex: exact match), I would get many false negatives because people often misspell names, especially when names are spelled in different languages or get converted between Arabic and English, which use entirely different symbols.
 
 So on this quest to find a better fuzzy searching algorithm, I came across these links that seem to be useful:
 
