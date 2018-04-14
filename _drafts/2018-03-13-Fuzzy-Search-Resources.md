@@ -22,7 +22,16 @@ Other blogs:
    - starts nice, but the end gets confusing when explaining how the algorithm works
    - the part I can take from this is some clarifications of the Levenshtein distance - maybe this is the direction I need to go
 2) http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata - not sure yet
-3) https://www.elastic.co/blog/found-fuzzy-search - maybe only useful when also using some expensive software 
+3) https://www.elastic.co/blog/found-fuzzy-search - maybe only useful when also using some expensive software
+4) Introduction to data retrieval - via stanford.edu: https://nlp.stanford.edu/IR-book/
+   - Edit distance: https://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html
+   - Phonetic correction: https://nlp.stanford.edu/IR-book/html/htmledition/phonetic-correction-1.html#sec:soundex
+   - Extra references & some history: https://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-3.html
+
+Heuristic: proceeding to a solution by trial and error or by rules that are only loosely defined.
+A few possible heuristics:
+1) Restrict search to terms beginning with the same letter as the query string
+   - pretty useful, but will sometimes fail on "Abd..." or maybe "Al..." / "El..."
 
 Existing Algorithms:
 1) https://gist.github.com/IceCreamYou/8396172 - javascript
