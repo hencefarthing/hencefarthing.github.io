@@ -73,5 +73,4 @@ But, Alex and I also have some ~~big~~[^8] plans for posts in the future, so sta
  
 
 [^7]:based on a true story 😝
-[^8]:Normal sized. 
-Maybe even small.
+[^8]:Normal sized. Maybe even small.
