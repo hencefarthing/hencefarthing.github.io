@@ -19,9 +19,9 @@ html {
 }
 
 body {
-	background: $darkGray;
+	background: $base3;
   font: 18px/1.4 $helvetica;
-  color: $lightGray;
+  color: $base00;
 }
 
 .container {
@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
+  color: $base01;
   font-weight: bold;
 
   line-height: 1.7;
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $base00;
 }
 
 p {
@@ -70,11 +70,11 @@ p {
 }
 
 a {
-  color: $purple;
+  color: $violet;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $purple;
+    color: $violet;
   }
 }
 
@@ -123,7 +123,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $base1;
 }
 
 // Specify the color of the selection
@@ -198,7 +198,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $purple;
+  color: $violet;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
