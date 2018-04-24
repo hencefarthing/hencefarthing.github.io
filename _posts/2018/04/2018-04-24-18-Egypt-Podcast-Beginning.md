@@ -19,7 +19,7 @@ So that's pretty much left me where I're at right now. My goal for this post is 
 
 # Podcast-hosting Sites
 
-1) [Soundcloud](https://soundcloud.com/stream)
+1. [Soundcloud](https://soundcloud.com/stream)
     - Pros:
         - Platform already established and used by many
         - Nice clean look for podcasters & listeners
@@ -40,7 +40,7 @@ So that's pretty much left me where I're at right now. My goal for this post is 
     - Final review:
         - Cost: 3 hours for free is not going to last us long, and only 6 hours at a paid rate will not be much better, so we would have to upgrade to the top paid plan with unlimited upload time. At this time, this is too expensive for us.
         - Customizable: The default player looks okay, but we were not able to find a way to customize the player as we would like. Something with this limited flexibility is not fun to work with. Additional API functions may be available when making your own "Soundcloud App" (see [developer docs](https://developers.soundcloud.com/)), but as I mentioned above - this is currently unavailable. So no.
-1) [YouTube](https://www.youtube.com/)
+1. [YouTube](https://www.youtube.com/)
     - Pros:
         - Platform already established and used by many
         - Free, unlimited uploads
@@ -55,17 +55,17 @@ So that's pretty much left me where I're at right now. My goal for this post is 
     - Final review:
         - Cost: Free is always great, so this will always be an option for us due to the free, unlimited upload nature.
         - Customizable: The default player looks ok for video playback, but I would have liked to hide the video element without doing a crazy javascript or html hack (since those don't always work in every browser). We're only doing podcasts, after all. Maybe this is a tiny point to get stuck on, but the lack of customization of the player made us move on to other options.
-1) [Podomatic](https://www.podomatic.com/)
+1. [Podomatic](https://www.podomatic.com/)
     - 500MB storage
     - Up to 6 hours recording for free
     - Final review:
         - Didn't look into the specifics very deeply for Podomatic, but a limited storage space & limited free recording time made me believe it was just another app, not worth deep diving into specifics.
-1) [Libsyn](https://www.libsyn.com/plans-pricing/)
+1. [Libsyn](https://www.libsyn.com/plans-pricing/)
     - Not free!
     - Minimum of $5 / month for 50 MB per month
     - Final review:
         - With a monthly cost as a minimum plan, I quickly skipped past using Libsyn. Logan and I could probably afford a mini $5 per month, but here in Egypt I was pretty dead-set on finding an entirely free solution.
-1) [Podbean](https://www.podbean.com/podcast-hosting-pricing)
+1. [Podbean](https://www.podbean.com/podcast-hosting-pricing)
     - Not free
     - Minimum of $3 / month (billed annually) for 100MB monthly
     - Final review:
