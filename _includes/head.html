@@ -3,7 +3,7 @@
 
 <script type="text/javascript">jQuery.bigfoot();</script>
 
-<script type="text/javascript"> $.bigfoot({ numberResetSelector: "div.post" })</script>
+<script type="text/javascript">$.bigfoot({ numberResetSelector: "div.post" })</script>
 
 <!--jquery for mobile menu-->
 <!--<script type="text/javascript"> jQuery(function($) { $( '.menu-btn' ).click(function(){ $('.responsive-menu').toggleClass('expand') }) }) </script>-->
@@ -14,3 +14,12 @@
 <script src="//rum-static.pingdom.net/pa-5a84e50746534f000700027a.js" async></script>
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- all scss imports into style.css in the end -->
+<!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bigfoot-default.css" /> -->
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
