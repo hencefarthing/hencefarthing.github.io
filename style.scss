@@ -275,6 +275,38 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+  .tags {
+    font-style: italic;
+    color: $base1;
+
+    .tag-list {
+      // float: right;
+      margin-bottom: 16px;
+      // font-family: $helveticaNeue;
+      font-size: 16px;
+    
+      @include mobile {
+        float: none;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 14px;
+      }
+    
+      a.tag {
+        margin-left: 20px;
+        color: $blue;
+        text-align: right;
+        font-weight: 300;
+        letter-spacing: 1px;
+    
+        @include mobile {
+          margin: 0 10px;
+          color: $blue;
+        }
+      }
+    }
+  }
 }
 
 .wrapper-footer {

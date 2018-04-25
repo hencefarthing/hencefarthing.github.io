@@ -19,9 +19,12 @@ layout: default
 
             {% if post.tags.size > 0 %}
             <div class="tags">
-                {% for tag in post.tags %}
-                <a href="" class="tag">{{ tag }}</a>
-                {% endfor %}
+                Tags: 
+                <span class="tag-list">
+                    {% for tag in post.tags %}
+                    <a href="" class="tag">{{ tag }}</a>
+                    {% endfor %}
+                </span>
             </div>
             {% endif %}
 
