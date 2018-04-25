@@ -8,6 +8,20 @@ layout: default
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+            {% if post.tags.size > 0 %}
+            <div class="tags">
+                Tags: 
+                <span class="tag-list">
+                    {% for tag in post.tags %}
+                    <a href="" class="tag">{{ tag }}</a>
+                        {% if forloop.rindex > 0 %}
+                        ,
+                        {% endif %}
+                    {% endfor %}
+                </span>
+            </div>
+            {% endif %}
+
             <!-- added from post.html -->
             <div class="date">
                 by {{ post.author }}
@@ -16,18 +30,6 @@ layout: default
             <div class="entry">
                 {{ post.excerpt }}
             </div>
-
-            {% if post.tags.size > 0 %}
-            <div class="tags">
-                Tags: 
-                <span class="tag-list">
-                    {% for tag in post.tags %}
-                    <a href="" class="tag">{{ tag }}</a>
-                    <span class="tag-delim">,</span>
-                    {% endfor %}
-                </span>
-            </div>
-            {% endif %}
 
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
