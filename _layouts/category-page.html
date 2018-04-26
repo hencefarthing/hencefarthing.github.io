@@ -9,7 +9,7 @@ categoryName: {{ page.categoryName }}
 <!-- get layout from index.html -->
 
 <div class="posts">
-    {% for post in site.category[page.categoryName] %}
+    {% for post in site.category.[page.categoryName] %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
