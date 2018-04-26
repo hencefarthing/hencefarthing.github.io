@@ -5,7 +5,7 @@ layout: default
 <article class="page">
 
     {% if page.categoryName %}
-    <h1>{{ page.title}}: {{ page.categoryName }}</h1>
+    <h1>{{ page.title}}: {{ page.categoryName | upcase }}</h1>
     <hr>
     {% else %}
     <h1>{{ page.title }}</h1>
