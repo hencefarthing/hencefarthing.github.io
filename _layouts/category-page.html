@@ -5,11 +5,7 @@ permalink: {{ page.permalink }}
 categoryName: {{ page.categoryName }}
 ---
 
-
-<!-- get layout from index.html -->
-
 <div class="posts">
-    test {{ page.categoryName }} - {{ site.categories}}
     {% for post in site.categories[page.categoryName] %}
         <article class="post">
 
@@ -29,7 +25,6 @@ categoryName: {{ page.categoryName }}
             </div>
             {% endif %}
 
-            <!-- added from post.html -->
             <div class="date">
                 by {{ post.author }} - {{ post.date | date: "%B %e, %Y" }}
             </div>
