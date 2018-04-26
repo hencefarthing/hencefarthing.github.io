@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: category-page
 title: Category
 permalink: /categories/code
 categoryName: Code
 ---
 
-Code category posts go here?
+test text in code.md
