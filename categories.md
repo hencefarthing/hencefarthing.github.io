@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Search by Tag
-permalink: /searchByTag/
+title: Categories
+permalink: /categories/
 testProp: testHere
 ---
 
-Search by tag! Please.
+Search by Categories! Maybe... Maybe no search. Please.
 
 Nothing else here, probably just the tag name to be searched
