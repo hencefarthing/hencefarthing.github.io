@@ -13,7 +13,7 @@ layout: default
                 <span>Categories:</span> 
                 <span class="category-list">
                     {% for category in post.categories %}
-                    <a href="" class="category">{{ category }}</a>
+                    <a href="{{ site.baseurl }}/categories/{{category}}" class="category">{{ category }}</a>
                         {% if forloop.rindex > 1 %}
                         <span>,</span>
                         {% endif %}
