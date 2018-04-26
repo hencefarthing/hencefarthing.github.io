@@ -276,11 +276,11 @@ nav {
     font-size: 15px;
   }
 
-  .tags {
+  .categories {
     font-style: italic;
     color: $base1;
 
-    .tag-list {
+    .category-list {
       // float: right;
       margin-bottom: 16px;
       // font-family: $helveticaNeue;
@@ -293,7 +293,7 @@ nav {
         font-size: 14px;
       }
     
-      a.tag {
+      a.category {
         margin-left: 8px;
         color: $blue;
         text-align: right;
