@@ -1,13 +1,11 @@
-{% capture categoryName %}
-    {{ page.url | remove_first: '/categories/' }}
-{% endcapture %}
-
 ---
 layout: page
 title: {{ page.title }}
 permalink: {{ page.permalink }}
-categoryName: {{ categoryName }}
+categoryName: {% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
 ---
+
+
 
 
 <div class="posts">
