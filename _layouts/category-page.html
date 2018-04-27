@@ -1,13 +1,17 @@
+{% capture categoryName %}
+    {{ page.url | remove_first: '/categories/' }}
+{% endcapture %}
+
 ---
 layout: page
 title: {{ page.title }}
 permalink: {{ page.permalink }}
+categoryName: {{ categoryName }}
 ---
 
-{% capture category_name %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
 
 <div class="posts">
-    {% for post in site.categories[category_name] %}
+    {% for post in site.categories[categoryName] %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
