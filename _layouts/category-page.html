@@ -2,13 +2,12 @@
 layout: page
 title: {{ page.title }}
 permalink: {{ page.permalink }}
-categoryName: {{ page.categoryName }}
 ---
 
+{% capture category_name %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
+
 <div class="posts">
-    dynamic cat: {{ page.url | remove_first: '/categories/' }}
-    test?
-    {% for post in site.categories[page.categoryName] %}
+    {% for post in site.categories[category_name] %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
