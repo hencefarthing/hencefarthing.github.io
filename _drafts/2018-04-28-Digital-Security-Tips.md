@@ -6,11 +6,9 @@ categories: security
 
 In the past week (from the day I started this post) two of my friends told me about three security risks. Not about some doofus who never sets passwords on anything, not about a naive tech user whose passwords are all '123'... but situations that could have been avoided if people were properly prepared. I have to be honest, I like to think of myself as smart with tech and security, but I don't know what I would do in these situations. Anyway, here are the events and some resources I found that *could* and / or *should* help prevent them happening to you:
 
-# Keeping naked photos of yourself on Facebook Messenger
-
 # Lost phone w/ naked photos of you and your lover on your phone
 
-# Facebook account getting hacked
+# Facebook account getting hacked & potentially embarrassing photos accessed
 - potentially useful resources:
 [Step 1 - Facebook's account-hacked page]{https://www.facebook.com/hacked)
 [Step 2 - Facebook guided help if account gets hacked](https://www.facebook.com/help/203305893040179)
@@ -39,9 +37,25 @@ In the past week (from the day I started this post) two of my friends told me ab
       - Upload an ID: You should upload a government ID through the given steps. A Facebook representative will verify it and activate your account and also will notify about it in email
       - Verify your Date of Birth: You should enter your date of birth to proceed to your Facebook account.
       - Guess your friends using their photos: You need to select 5 friends name out of 7 by seeing their photos.
+
+[4 Immediate steps to take after FB account hacked](https://www.makeuseof.com/tag/4-immediately-facebook-account-hacked/)
+1. Change password & logout of ALL sessions OR use password reset if hacker changed the password
+2. 
+
 [Last step - reviewing FB security settings](https://www.facebook.com/help/409353935768826/)
+
+  - 
 
 # Other tips:
 If someone hacks any account of yours, one of the FIRST things you should do: **CHANGE ALL OF YOUR PASSWORDS ON OTHER ONLINE ACCOUNTS** - especially if any other account uses the same password that got hacked!! When I was in high school and maybe the first year or two of college, I used the same simple password for all of my accounts, and eventually I got smart after a few smart people warned me that if ANY account got hacked (or if someone saw me entering my password), ALL of my accounts would be compromised instantly.
 
-# Software for helping remember account passwords:
+# Smart security steps to set up *before* getting hacked:
+https://www.makeuseof.com/tag/5-secure-facebook-account-recoverable/
+
+Two-factor authentication
+  - Facebook link: https://www.facebook.com/settings?tab=security
+
+Chrome password storing (recommend: not using!)
+
+# Software for storing account passwords:
+- Mobile Applications
