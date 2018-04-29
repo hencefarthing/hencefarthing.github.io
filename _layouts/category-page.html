@@ -4,6 +4,13 @@ title: {{ page.title }}
 categoryName: {{ page.categoryName }}
 ---
 
+<script>
+    // {% capture testName %}
+    document.location.href.split('?')[1];
+    // {% endcapture %}
+</script>
+
+<p>scriptCapture: {{ testName }}</p>
 url: {{ page.url }}
 test? {% capture categoryName %}{{ page.url | remove_first: '?' }}{% endcapture %}
 CatName: {{ categoryName }}
@@ -15,10 +22,6 @@ CatName: {{ categoryName }}
 <div class="entry">
     {{ content }}
 </div>
-
-<script>
-    debugger;
-</script>
 
 <div class="posts">
     {% for post in site.categories[categoryName] %}
