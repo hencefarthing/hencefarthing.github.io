@@ -15,10 +15,9 @@ code {
 }
 
 .highlight .lineno {
-  color: #ccc;
-  display:inline-block;
-  padding: 0 5px;
-  border-right:1px solid #ccc;
+  display:none;
+  // padding: 0 5px;
+  // border-right:1px solid #ccc;
 }
 .highlight pre code {
   display: block;
