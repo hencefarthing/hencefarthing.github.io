@@ -8,7 +8,7 @@ redirect_from:
     - /categories/test
 testProp: testHere
 ---
-
+<p>redirect to: {{ page.redirect.to }}</p>
 Search by Categories! Maybe... Maybe no search. Please.
 
 Nothing else here, probably just the tag name to be searched
