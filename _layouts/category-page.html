@@ -2,12 +2,13 @@
 layout: page
 title: {{ page.title }}
 permalink: {{ page.permalink }}
-{% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
-categoryName: {{ categoryName }}
+categoryName: {{ page.categoryName }}
 ---
 
 
-test CatName: {{ categoryName }}
+test? {% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
+CatName: {{ categoryName }}
+<p>Redirect from: {{ page.redirect.from }}</p>
 
 <div class="posts">
     {% for post in site.categories[categoryName] %}
