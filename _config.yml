@@ -91,3 +91,12 @@ exclude:
 
 include:
   - _js
+
+# site defaults (https://jekyllrb.com/docs/configuration/)
+defaults:
+  -
+    scope:
+      path: "categories"
+    values:
+      layout: "category-page"
+      title: "Category"
