@@ -4,8 +4,8 @@ title: {{ page.title }}
 categoryName: {{ page.categoryName }}
 ---
 
-
-test? {% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
+url: {{ page.url }}
+test? {% capture categoryName %}{{ page.url | remove_first: '?' }}{% endcapture %}
 CatName: {{ categoryName }}
 <p>Redirect from: {{ page.redirect.from }}</p>
 <p>Redirect to: {{ page.redirect.to }}</p>
