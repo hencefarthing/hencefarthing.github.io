@@ -1,5 +1,4 @@
 ---
 layout: category-page
-title: Category
-permalink: /categories
+permalink: /categories/code
 ---

@@ -1,17 +1,8 @@
 ---
 layout: page
-title: {{ page.title }}
+title: Category
 categoryName: {{ page.categoryName }}
 ---
-
-url: {{ page.url }}
-test? {% capture categoryName %}{{ page.url | remove_first: '?' }}{% endcapture %}
-CatName: {{ categoryName }}
-<p>new2</p>
-
-<div class="entry">
-    {{ content }}
-</div>
 
 <div class="posts">
     {% for post in site.categories[categoryName] %}
