@@ -12,6 +12,10 @@ CatName: {{ categoryName }}
 <p>Redirect to: {{ page.redirect.to }}</p>
 <p>new2</p>
 
+<div class="entry">
+    {{ content }}
+</div>
+
 <div class="posts">
     {% for post in site.categories[categoryName] %}
         <article class="post">
