@@ -6,14 +6,14 @@ layout: page
     <!-- {{ site.categories }} -->
     {% for category in site.categories %}
     <div class="category-group">
-        <!-- I think each 'category' has lots of data, so just get first item -->
+        <!-- 'category' has lots of data, so just get first item -->
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <div id="#{{ category_name | slugify }}"></div>
         
         <p></p>
-        <h3 class="category-head">{{ category_name }}</h3>
+        <h3 class="category-head">{{ category_name | upcase }}</h3>
 
-        <a name="{{ category_name | slugize }}"></a>
+        <a name="{{ category_name | slugify }}"></a>
 
         {% for post in site.categories[category_name] %}
         <article class="post-item">
