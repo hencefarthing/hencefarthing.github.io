@@ -8,15 +8,14 @@ layout: page
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div class="category-group" id="#{{ category_name | slugify }}">
         <h3 class="category-head">
-            <a name="{{ site.baseurl }}/categories/{{ category_name }}">{{ category_name | upcase }}</a>
+            <a name="{{ site.baseurl }}/categories/{{ category_name }}">#</a>
+            {{ category_name | upcase }}
         </h3>
 
         <ul>
             {% for post in site.categories[category_name] %}
             <li class="post-item">
-                <!-- <h4> -->
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <!-- </h4> -->
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </li>
             {% endfor %}
         </ul>
