@@ -5,7 +5,8 @@ layout: page
 <div id="categories">
     {% for category in site.categories %}
     <div class="category-group">
-        {% capture category_name %}{{ category }}{% endcapture %}
+        {{ category }}
+        <!-- {% capture category_name %}{{ category }}{% endcapture %}
         <div id="#{{ category_name | slugify }}"></div>
         
         <p></p>
@@ -17,7 +18,7 @@ layout: page
         <article class="post-item">
             <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         </article>
-        {% endfor %}
+        {% endfor %} -->
     </div>
     {% endfor %}
 </div>
