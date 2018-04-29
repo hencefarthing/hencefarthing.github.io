@@ -1,7 +1,6 @@
 ---
 layout: page
 title: {{ page.title }}
-permalink: {{ page.permalink }}
 categoryName: {{ page.categoryName }}
 ---
 
@@ -10,6 +9,7 @@ test? {% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% 
 CatName: {{ categoryName }}
 <p>Redirect from: {{ page.redirect.from }}</p>
 <p>Redirect to: {{ page.redirect.to }}</p>
+<p>Redirect: {{ page.redirect }}</p>
 <p>new2</p>
 
 <div class="entry">
