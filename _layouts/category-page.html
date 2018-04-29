@@ -4,19 +4,9 @@ title: {{ page.title }}
 categoryName: {{ page.categoryName }}
 ---
 
-<script>
-    // {% capture testName %}
-    document.location.href.split('?')[1];
-    // {% endcapture %}
-</script>
-
-<p>scriptCapture: {{ testName }}</p>
 url: {{ page.url }}
 test? {% capture categoryName %}{{ page.url | remove_first: '?' }}{% endcapture %}
 CatName: {{ categoryName }}
-<p>Redirect from: {{ page.redirect.from }}</p>
-<p>Redirect to: {{ page.redirect.to }}</p>
-<p>Redirect: {{ page.redirect }}</p>
 <p>new2</p>
 
 <div class="entry">
