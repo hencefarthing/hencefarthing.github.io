@@ -1,4 +1,5 @@
 <!--  -->
+{% capture categoryName %}{{ page.url }}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en-US">
     <meta charset="utf-8">
@@ -8,5 +9,5 @@
     <meta name="robots" content="noindex">
     <h1>Redirecting&hellip;</h1>
     <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
-    <script>location="{{ page.redirect.to }}?test"</script>
+    <script>location="{{ page.redirect.to }}?{{ categoryName }}"</script>
 </html>
