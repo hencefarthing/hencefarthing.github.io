@@ -3,10 +3,10 @@ layout: page
 ---
 
 <div id="categories">
-    {{ site.categories }}
-    <!-- {% for category in site.categories %}
+    <!-- {{ site.categories }} -->
+    {% for category in site.categories %}
     <div class="category-group">
-        {% capture category_name %}{{ category }}{% endcapture %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
         <div id="#{{ category_name | slugify }}"></div>
         
         <p></p>
@@ -20,5 +20,5 @@ layout: page
         </article>
         {% endfor %}
     </div>
-    {% endfor %} -->
+    {% endfor %}
 </div>
