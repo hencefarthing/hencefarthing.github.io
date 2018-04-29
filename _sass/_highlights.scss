@@ -1,5 +1,5 @@
 
-div .highlight {
+pre.highlight {
   background-color: $base3;
   padding: 7px 7px 7px 10px;
   border: 1px solid $base2;
@@ -12,18 +12,6 @@ div .highlight {
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-}
-
-.highlight .lineno {
-  display:none;
-  // padding: 0 5px;
-  // border-right:1px solid #ccc;
-}
-.highlight pre code {
-  display: block;
-  white-space: pre;
-  overflow-x: auto;
-  word-wrap: normal;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
