@@ -7,9 +7,7 @@ layout: page
     {% for category in site.categories %}
     <div class="category-group">
         <!-- I think each 'category' has lots of data, so just get first item -->
-        {% capture category_name %}
-            {{ category | first }}
-        {% endcapture %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
         <div id="#{{ category_name | slugify }}"></div>
         
         <p></p>
