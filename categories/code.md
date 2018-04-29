@@ -1,7 +1,7 @@
 ---
 layout: category-page
 title: Category
-permalink: /categories/code45
+permalink: /categories
 redirect_from:
     - /categories/code
     - /categories/test
