@@ -9,7 +9,7 @@ categoryName: {{ page.categoryName }}
 test? {% capture categoryName %}{{ page.url | remove_first: '/categories/' }}{% endcapture %}
 CatName: {{ categoryName }}
 <p>Redirect from: {{ page.redirect.from }}</p>
-<p>new</p>
+<p>new2</p>
 
 <div class="posts">
     {% for post in site.categories[categoryName] %}

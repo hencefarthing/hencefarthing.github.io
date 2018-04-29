@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Categories
-permalink: /categories/
+# permalink: /categories/
+redirect_from:
+    - /categories
+    - /categories/code
+    - /categories/test
 testProp: testHere
 ---
 
