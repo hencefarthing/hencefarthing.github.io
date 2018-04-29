@@ -9,6 +9,7 @@ redirect_from:
 testProp: testHere
 ---
 <p>redirect to: {{ page.redirect.to }}</p>
+<p>redirect from: {{ page.redirect.from }}</p>
 Search by Categories! Maybe... Maybe no search. Please.
 
 Nothing else here, probably just the tag name to be searched
