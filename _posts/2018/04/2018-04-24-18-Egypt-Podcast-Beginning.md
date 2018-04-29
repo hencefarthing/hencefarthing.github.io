@@ -2,6 +2,7 @@
 layout: post
 title: Podcasting in Egypt - The Beginning
 author: Alex B
+categories: code egypt
 ---
 
 At my work, a fellow techie and I recently discussed starting a new project. This project includes creating a static website where StARS employees can record updates in the refugee space (new laws and regulations, for example) and display them in an easy-access format for CBOs (community based organizations) or individuals in Cairo. When I say "display", I really mean "make available". The updates would not be available in text (maybe we'll add short summary somewhere), but mainly by voice - similar to a podcast.
