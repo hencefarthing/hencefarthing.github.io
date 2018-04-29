@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category-page
 title: Categories
 # permalink: /categories/
 redirect_from:
