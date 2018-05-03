@@ -6,7 +6,8 @@ categories: security
 
 In the past week (from the day I started this post) two of my friends told me about three security risks. Not about some doofus who never sets passwords on anything, not about a naive tech user whose passwords are all '123'... but situations that could have been avoided if people were properly prepared. I have to be honest, I like to think of myself as smart with tech and security, but I don't know what I would do in these situations. Anyway, here are the events and some resources I found that *could* and / or *should* help prevent them happening to you:
 
-# Lost phone w/ naked photos of you and your lover on your phone
+# Lost phone w/ naked photos on your phone
+we all think this is a fun, kinky idea but no!! never do this without proprrly securing your pjone and phone storage!!
 
 # Facebook account getting hacked & potentially embarrassing photos accessed
 - potentially useful resources:
