@@ -148,14 +148,14 @@ The first thing Hummingbird does is pull up the main data file and read the `upd
 Next, it runs the fourth (and hitherto unmentioned) sub-workflow: **Count**. 
 Count gets called several more times, because pulling up a number for how many unread articles there are is more actions than I wanted to put in here 4 times. 
 Could I have included this in `data.txt`? Probably, but I didn't think of that until *right now*. 
-So ¯\\_(ツ)_/¯
+So ¯\\\_(ツ)\_/¯
 
 With this new information it presents the user with a dialogue with the number of unread articles and how long ago the list was updated and a checklist of which options to do next:
-```
-🔄 Update
-☑️ Triage
-🤓 Read
-```
+
+>🔄 Update
+>☑️ Triage
+>🤓 Read
+
 By default, all the options are checked. 
 The user may adjust these before pushing continue. 
 Then:
@@ -170,7 +170,7 @@ Otherwise we continue.
  
 
 3. 
-If `☑️ Triage`had been selected, the sub-workflow **Triage** is run. 
+If `☑️ Triage` had been selected, the sub-workflow **Triage** is run. 
  
 
 4. 
@@ -195,15 +195,13 @@ But most of all, every day when I sit down to do some casual reading, I open som
  
 
 
-[^1]: Ok, I have lots of problems. 
-But lets stay focused on the RSS reader for now. 
+[^1]: Ok, I have lots of problems. But lets stay focused on the RSS reader for now. 
  
 
 
 [^2]: What can I say, I’m a mechanical engineer ¯\_(ツ)_/¯
 
-[^3]: If you want to learn how to use Workflow, read anything and everything by Federico Viticci over at [MacStories](macstories.net). 
-Club MacStories is worth the price of admission for that alone. 
+[^3]: If you want to learn how to use Workflow, read anything and everything by Federico Viticci over at [MacStories](macstories.net). Club MacStories is worth the price of admission for that alone. 
  
 
 
@@ -215,8 +213,7 @@ Club MacStories is worth the price of admission for that alone.
  
 
 
-[^6]: To avoid a problem [Dr. 
-Drang ran into.](http://leancrew.com/all-this/2018/02/feed-reader-robustification/)
+[^6]: To avoid a problem [Dr. Drang ran into.](http://leancrew.com/all-this/2018/02/feed-reader-robustification/)
 
 [^7]: You think I’m clever now? Just wait until I tell you what I decided to name the entire set-up. 
  
@@ -226,8 +223,6 @@ Drang ran into.](http://leancrew.com/all-this/2018/02/feed-reader-robustificatio
  
 
 
-[^9]: You thought it actually wasn’t going to be clever, but it was slightly clever. 
-Go me!
+[^9]: You thought it actually wasn’t going to be clever, but it was slightly clever. Go me!
 
-[^10]: I’m trying to simplify some parts of my life and view my devices and apps as tools instead of toys. 
-This helps with that effort.
+[^10]: I’m trying to simplify some parts of my life and view my devices and apps as tools instead of toys. This helps with that effort.
