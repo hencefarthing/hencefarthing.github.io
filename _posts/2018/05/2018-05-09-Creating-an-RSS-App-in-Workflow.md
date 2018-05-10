@@ -2,7 +2,7 @@
 layout: post
 author: Logan G
 title: Creating an RSS "App" in Workflow 
-categories: workflow, code
+categories: workflow code
 ---
 A few months ago, I found that I have a problem. 
 I could not find an RSS reader that I really liked and enjoyed using. 
