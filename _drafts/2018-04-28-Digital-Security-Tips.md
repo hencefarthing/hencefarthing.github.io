@@ -60,3 +60,6 @@ Chrome password storing (recommend: not using!)
 
 # Software for storing account passwords:
 - Mobile Applications
+  - 1Password
+    - Price:
+    - Easy to use: 10/10
