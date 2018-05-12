@@ -6,7 +6,7 @@ categories: workflow code
 ---
 A few months ago, I found that I have a problem. 
 I could not find an RSS reader that I really liked and enjoyed using. 
-After trying them all to great frustration, I thought ɪ ʜᴀᴠᴇ ᴠᴇʀʏ ʟɪᴍɪᴛᴇᴅ ᴄᴏᴅɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴏɴʟʏ ᴜsᴇ ɪᴏs, ʜᴏᴡ ʜᴀʀᴅ ᴄᴏᴜʟᴅ ʙᴇ ᴛᴏ ᴍᴀᴋᴇ ᴍʏ ᴏᴡɴ? [^1]. 
+After trying them all to great frustration, I thought ɪ ʜᴀᴠᴇ ᴠᴇʀʏ ʟɪᴍɪᴛᴇᴅ ᴄᴏᴅɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴏɴʟʏ ᴜsᴇ ɪᴏs, ʜᴏᴡ ʜᴀʀᴅ ᴄᴏᴜʟᴅ ɪᴛ ʙᴇ ᴛᴏ ᴍᴀᴋᴇ ᴍʏ ᴏᴡɴ? [^1]. 
 So with that settled, I decided to go ahead and do just that. 
 Let us begin. 
  
