@@ -1,0 +1,37 @@
+// List to be called in selections later
+var areaList = ["Hobbies","Admin","Self","Home","Social/Family","Grad School"];
+var tagList = ["At Work","Drawing","Automation","Kayla","Outside","In Town","Writing","Online","At Home"];
+
+//create prompt
+var p = Prompt.create();
+p.title = "Add to Things 3.";
+p.message = "Select and Area, a Tag, and write when you will do it.";
+
+//add fields to prompt
+p.addSelect("selectedArea","Area:",areaList,[],false);
+p.addSelect("selectedTag","Tag:",tagList,[],false);
+p.addTextField("inputDate","If you want a reminder, specify a time.","Today")
+p.addButton("Continue");
+
+//show prompt
+p.show();
+
+if (p.buttonPressed == "Continue") {
+
+//using built in things support
+var task = TJSTodo.create();
+task.title = draft.title;
+task.notes = draft.content;
+task.when = p.fieldValues["inputDate"];
+task.list = p.fieldValues["selectedArea"];
+task.tags = p.fieldValues["selectedTag"];
+
+var container = TJSContainer.create([task]);
+
+//using callbackURL properly
+var cb = CallbackURL.create();
+cb.baseURL = container.url;
+var success = cb.open();
+if (success) { console.log("Task created in Things");}
+else { context.fail(); }
+}

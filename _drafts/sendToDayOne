@@ -1,0 +1,30 @@
+// List of journals & tags to call later
+var journals = ["Diary","Health Log","House Log","The Ancient Bird","Active Questions"];
+var tags = ["Hencefarthing","Doodle","Haiku","Quote","Excerpt","Encouragement"];
+
+//create prompt
+var p = Prompt.create();
+p.title = "Send to Day One";
+p.message = "Select a Journal and some Tags.";
+
+//add fields to prompt
+p.addSelect("journal","Journal:",journals,["Diary"],false);
+p.addSelect("tags","Tags:",tags,[],true);
+p.addButton("Continue");
+
+//show prompt
+p.show();
+
+if (p.buttonPressed == "Continue") {
+
+//using callbackURL properly
+var cb = CallbackURL.create();
+cb.baseURL = "dayone://post";
+cb.addParameter("entry",draft.content);
+cb.addParameter("tags",p.fieldValues["tags"]);
+cb.addParameter("journal",p.fieldValues["journal"]);
+
+var success = cb.open();
+if (success) { console.log("Entry created");}
+else { context.fail(); }
+}
