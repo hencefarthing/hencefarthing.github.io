@@ -2,7 +2,7 @@
 layout: post
 author: Alex B
 title: Tutorial Time - Powerpoint to YouTube Guide
-categories: powerpoint youtube
+categories: powerpoint youtube egypt
 ---
 
 Over the past five months or so I've been working on a project which will save time for people[^1] at my work. My goal is to create a tutorial video on how to use a database management system that I've been managing throughout my time in Cairo.
