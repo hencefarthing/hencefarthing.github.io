@@ -87,6 +87,8 @@ When I run through this process again, uploading the second half of my tutorial 
 
 As always, thanks for reading :)
 
+P.S. Here's a link to the tutorial: (RIPS Tutorial - Part 1)[https://www.youtube.com/watch?v=h5Itx1ZX-tU]
+
 ## Related Links
 
 ### .3gpp -> .mp3 Audio File Conversion Sites
