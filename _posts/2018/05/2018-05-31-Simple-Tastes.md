@@ -5,7 +5,7 @@ title: Simple Tastes
 categories: food on-theme
 ---
 
-A quick word before today's post: This month (May), Alex & I tried something new: A Monthly Theme. Alex explained a bit better in his post a couple days ago. All I have to add is that we posted our Monthly May themes on the 29th and the 31st… Go team!! 🤜🏼💢🤛🏼
+A quick word before today's post: This month (May), Alex & I tried something new: A Monthly Theme. Alex explained a bit better in his post a couple days ago[^0]. All I have to add is that we posted our Monthly May themes on the 29th and the 31st… Go team!! 🤜🏼💢🤛🏼
 
 # On Simple Tastes
 Lately, I've been into making more of my own food. There are lots silly reasons why, as well as a few logical ones[^1]; but the biggest thing that drives me to do it is my own enjoyment. I like making things, and I like learning how things are made.  
@@ -27,6 +27,8 @@ I wrote most of this a week ago. The last few sentences I tried to tack on today
 - I like food
 - I like food so much I make my own
 - It's ok to be healthy while still liking food
+
+[^0]: I think, time zones are weird.  
 
 [^1]: Without specifying which is which: knowing what is in my food, avoiding additives & preservatives, being able to pick ingredients that fit my nutritional goals, fresher food, yummier food, plainer food with less concentrated salts and sugars.  
 [^2]: Ok, so it wasn’t *that* good. But I’m stubborn so I ate it anyway.  
