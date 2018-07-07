@@ -1,4 +1,8 @@
-# The Power of Mythology
+---
+title: The Power of Mythology
+author: Logan G
+layout: post
+---
 
 I've long been fascinated by the myths and legends of cultures and peoples gone by. As a kid I loved stories of Greek and Roman mythologies, I devoured books on mythological creatures, and I read and reread Tolkien's works. Currently, I am reading Neil Gaiman's [Norse Mythology][1], and thoroughly enjoying it. Even if taken as literal stories, as we imagine they were, all mythology seems impossible to take on a literal level and beg to be allegories and metaphors.
 
