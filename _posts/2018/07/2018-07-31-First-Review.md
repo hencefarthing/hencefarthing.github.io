@@ -41,7 +41,24 @@ When products have thousands or millions of reviews, how can the real, productiv
 
 Ok, now to the real topic of this post :) So... This month I was a bit too late coming up with something to review, so I haven't actually written any reviews in July. [^4] Instead, I'll share a review I wrote for a little vacation resort on the Red Sea called [Palm Beach](https://www.google.com/maps/place/Palm+Beach+-+Family+Tours+Ain+El+Sokhna/@29.7413198,32.3907338,17z/data=!3m1!4b1!4m9!1m3!8m2!1e1!2s116837711879789507840!3m4!1s0x14564b739248fa2f:0x806f4f984865dddd!8m2!3d29.7413152!4d32.3929225). My family and I stayed there in May of this year, and we had a pretty relaxing time. Check it out below:
 
-    I am torn between 3 and 4 stars. Here's why. I came to Palm Beach with the intent to get away from Cairo heat for a while, relax on the beach, enjoy the huge beautiful pool, and overall chill as much as possible. I came during the first weekend of Ramadan (maybe that's my mistake), and a few things were off. The huge pool advertised in many photos was full of green water - they weren't letting anyone in. Also, the water in my room turned completely off for at least 6 hours total every day. If we had not brought our own box of waters, we would have been in a very rough situation. Other than those two issues,  the room was clean, air conditioning in every room worked well, the beach was clean and perfect (sand was soft,  many nice umbrellas and chairs to shade you from the sun). The staff member at the check-in counter was also very friendly. If you stay here, bring your own food and water, and obviously a bathing suit 😊
+    I am torn between 3 and 4 stars. Here's why. I came to
+    Palm Beach with the intent to get away from Cairo heat
+    for a while, relax on the beach, enjoy the huge beautiful
+    pool, and overall chill as much as possible. I came
+    during the first weekend of Ramadan (maybe that's my
+    mistake), and a few things were off. The huge pool
+    advertised in many photos was full of green water - they
+    weren't letting anyone in. Also, the water in my room
+    turned completely off for at least 6 hours total every
+    day. If we had not brought our own box of waters, we
+    would have been in a very rough situation. Other than
+    those two issues,  the room was clean, air conditioning
+    in every room worked well, the beach was clean and
+    perfect (sand was soft,  many nice umbrellas and chairs
+    to shade you from the sun). The staff member at the
+    check-in counter was also very friendly. If you stay
+    here, bring your own food and water, and obviously a
+    bathing suit 😊
 
 After reading this review I wrote only 2 months ago, I have a few comments for myself. First, easy to troll, second, how long should a review be? As I mentioned above, people probably don't have the time to just sit around, reading reviews all day... So it sounds beneficial to write reviews as short and to-the-point as possible. Does that make sense to you, reader? Do you think you would take the time to read my 10-sentence review? Let me know what you think! I'm genuinely interested :)
 
