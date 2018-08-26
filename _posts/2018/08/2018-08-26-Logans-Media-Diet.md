@@ -5,7 +5,9 @@ title: Logan's August 2018 media Diet
 categories: media
 ---
 
+Here's a brief list of what I've read, watched, and listened to in the last month.  
 I've decided to also take a page from Alex's book, and add a bit of a review to each of these. But no spoilers.
+
 - **_Origins_ by Dan Brown** — This was a fun read, if not a literary masterpiece. If you've read any Dan Brown books before, the blend of science, art, history, and nonsense will seem familiar. Due to some travel difficulties, I ended up reading this in less than 24 hours, which I think actually enhanced the experience because the book occurs over a similarly brief time frame.
 - **A few episodes of _Fixer Upper_** — My wife loves this show, and decided she wants to rewatch it to help give her inspiration in some of the home crafts and decorations she has been making. Each episode is entertaining, and gives us both pretty good ideas about what to do with our house and to make each room meaningful in some way.
 - **_Last Week Tonight with John Oliver_** — We watch the sections he puts on YouTube. They are typically a mixture of amusing, depressing, aggravating, and informative. Obviously he has a bit of a liberal lean, but this is not my only nor primary source of news. (You'll see that later in the list)
