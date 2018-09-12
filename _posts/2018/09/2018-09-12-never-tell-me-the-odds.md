@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Logan G
-title: Never Tell Me the Odds: An NFL Probability Script
+title: Never Tell Me the Odds, An NFL Probability Script
 categories: ios automation
 ---
 
