@@ -39,7 +39,7 @@ Just a quick note - on day 2, we wrapped up earlier than we originally expected.
 
 # Thanks
 
-That's all for now! Potential more updates to follow :) Hope you enjoyed this story :)
+That's all for now! Potential more updates to follow. Hope you enjoyed the story :)
 
 ![image](/images/biker-zone.jpeg)
 
