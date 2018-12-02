@@ -5,20 +5,46 @@ title: Watching Along With Star Wars Minute
 categories: ios automation StarWars
 ---
 
-One of my favorite podcast is [Star Wars Minute][SWM], the daily podcast in which they analyze, scrutinize, and celebrate the _Star Wars_ movies one minute at a time.[^1]  As I write this, the are just beginning their seventh season, featuring _The Force Awakens_. For those of you not quite as entrenched in _Star Wars_ as me, this is the first movie after Disney bought Lucasfilm and hasn't quite been out for 3 years. Seeing how that is less than 2 decades and I've only seen the movie a handful of times, I cannot quite recite it the way I can the Lucas-era Trilogies. So I decided it would be fun to watch the relevant minute of the movie immediately before listening to the podcast each morning. And, being a geek, I felt compelled to make it **way** more complicated than it needed to be.  
+One of my favorite podcast is [Star Wars Minute][SWM], the daily podcast in which they analyze, scrutinize, and celebrate the _Star Wars_ movies one minute at a time.[^1]  As I write this, they are just beginning their seventh season, featuring _The Force Awakens_. For those of you not quite as entrenched in _Star Wars_ as me, this is the first movie after Disney bought Lucasfilm and hasn't quite been out for 3 years. Seeing how that is less than 2 decades and I've only seen the movie a handful of times, I cannot quite recite it the way I can the Lucas-era Trilogies. So I decided it would be fun to watch the relevant minute of the movie immediately before listening to the podcast each morning. And, being a geek, I felt compelled to make it **way** more complicated than it needed to be.  
 
 ## Break It Down Now
 Now, I _could_ just watch the movie like a normal human, except pause at the end of each minute and resume the next day. But that is too easy. Lucky for me, _The Force Awakens_ is one of the last movies I bought on DVD, and I had previously ripped that DVD onto computer for viewing in [Plex][plex]. So, great, I have `The Force Awakens (2015).m4v` file on my computer, how does that help?   
 
 If I have the bits, there is presumably a way to break them into chunks. My first instinct is to look at [Shortcuts][short] on iOS. No dice, the `Trim Media` action there simply opens the horribly inaccurate native iOS tool to trim manually. Not cool. Maybe my the new-kid-on-the-block [Scriptable][scr] has a way? Not that I see immediately… 🤔  
 
-Well… I did just get a Mac Mini set up as a home server…[^2] TO THE MAC MINI!! Automator proves to be not terribly helpful. But, I stumble up on the documentation for QuickTime's AppleScript support, and what do I behold but a `trim` command? With some reluctance I decide to dive in.   
-[^2]: Thank you for _finally_ updating it Apple!
+Well… I did just get a Mac Mini set up as a home server… [^2] TO THE MAC MINI!! Automator proves to be not terribly helpful. But, I stumble up on the documentation for QuickTime's AppleScript support, and what do I behold but a `trim` command? With some reluctance I decide to dive in.   
 
-We will go ahead and ignore the things I that didn't work, and focus on the final product:  
+We will go ahead and ignore the things I did that didn't work, and focus on the final product:  
 
 ```applescript
-property segment_length : (60 * 1)tell application "QuickTime Player"	activate	if not (exists document 1) then error number -128	repeat		display dialog "Enter the base name for the export movie file:" default answer ""		set the base_name to the text returned of the result		if the base_name is not "" then exit repeat	end repeat	set the movie_length to the duration of document 1	set the destination_path to the file of document 1	set the origin_path to the name of document 1	set the segment_count to the (movie_length div segment_length)	if (movie_length mod segment_length) is not 0 then set the segment_count to the segment_count + 1	set start_time to 0	repeat with i from 1 to the segment_count		set end_time to start_time + segment_length		set current time of document 1 to start_time		trim document 1 from start_time to end_time		set the target_file to ("Jango Fett:Plex Data:SWM:" & base_name & "-" & (i as string) & ".mov")		export document 1 in file target_file using settings preset "720p"		delay 1		close document 1 without saving		open (destination_path as string)		set start_time to end_time	end repeatend tell
+property segment_length : (60 * 1)
+
+tell application "QuickTime Player"
+	activate
+	if not (exists document 1) then error number -128
+	repeat
+		display dialog "Enter the base name for the export movie file:" default answer ""
+		set the base_name to the text returned of the result
+		if the base_name is not "" then exit repeat
+	end repeat
+	set the movie_length to the duration of document 1
+	set the destination_path to the file of document 1
+	set the origin_path to the name of document 1
+	set the segment_count to the (movie_length div segment_length)
+	if (movie_length mod segment_length) is not 0 then set the segment_count to the segment_count + 1
+	set start_time to 0
+	repeat with i from 1 to the segment_count
+		set end_time to start_time + segment_length
+		set current time of document 1 to start_time
+		trim document 1 from start_time to end_time
+		set the target_file to ("Jango Fett:Plex Data:SWM:" & base_name & "-" & (i as string) & ".mov")
+		export document 1 in file target_file using settings preset "720p"
+		delay 1
+		close document 1 without saving
+		open (destination_path as string)
+		set start_time to end_time
+	end repeat
+end tell
 ```
 I started with code found [here][source], but sadly it threw some errors and never successfully saved more than the first minute, so extensive modification was required.  
 
@@ -56,5 +82,6 @@ For future Logan's sake, here's the changes you (I) should make:
 [short]: https://itunes.apple.com/us/app/shortcuts/id915249334
 [scr]: scriptable.app
 [source]: http://hints.macworld.com/article.php?story=20100305070247890
+[^2]: Thank you for _finally_ updating it Apple!
 [^3]: 139 times, to be exact.
 [overcast]: overcast.fm
