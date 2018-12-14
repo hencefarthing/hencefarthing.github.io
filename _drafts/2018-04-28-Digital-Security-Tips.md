@@ -63,3 +63,5 @@ Chrome password storing (recommend: not using!)
   - 1Password
     - Price:
     - Easy to use: 10/10
+- [KeePass](https://nakedsecurity.sophos.com/2017/11/17/keepass-a-password-manager-thats-cloud-less-but-complex/)
+  - Offline, you can store your store anywhere you want
