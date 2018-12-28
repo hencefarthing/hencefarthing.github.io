@@ -1,10 +1,9 @@
 ---
 layout: post
-Title: Podcasts (and Blogs) and Why They Matter
-Author: Logan G
+title: Podcasts (and Blogs) and Why They Matter
+author: Logan G
 ---
 
-# [%Title]
 So you just heard about podcasts for the first time. Maybe one of your more techie/internety friends told you about one of their favorites, or maybe someone said you should listen to their podcast.  And naturally, you're a little curious about why people are  passionate about podcasts. And now that you mention it, what is a podcast and how does it work? What makes podcasts different than other forms of media? Well buckle up, because I care deeply about all those things and I brought my soap box.  
 
 ## Where did podcasts come from?
