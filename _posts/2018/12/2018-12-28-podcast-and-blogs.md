@@ -28,7 +28,7 @@ Right you are my fine feathered friend. Let's see if I can put this clearly and 
 > Podcasts and blogs are important because they democratize the flow of meaningful information and interaction in a way that is impossible  both without the internet and on the social and media giants that are most people's windows into the internet.  
 
 I think that is a pretty good explanation, but I'll expand on it a bit.[^3]  
-Before the advent of the internet, there was a dearth of opportunities for interacting and communicating with other humans relative to today. For all practical person, a person was limited to exchanging ideas with friends and friends-of-friends. Only the most privileged could have their thoughts and ideas published in a magazine or newspaper and distributed throughout the world, and even the reading of those words was limited to those who lived in the geographical area it would be distributed toand had the means to buy a book or other text. With nearly ubiquitous internet, anyone can publish anything and have it heard/read anywhere throughout the world.  
+Before the advent of the internet, there was a dearth[^6] of opportunities for interacting and communicating with other humans relative to today. For all practical person, a person was limited to exchanging ideas with friends and friends-of-friends. Only the most privileged could have their thoughts and ideas published in a magazine or newspaper and distributed throughout the world, and even the reading of those words was limited to those who lived in the geographical area it would be distributed toand had the means to buy a book or other text. With nearly ubiquitous internet, anyone can publish anything and have it heard/read anywhere throughout the world.  
 Unless, of course, they are writing within the walled garden of something like Facebook. Not only can people who don't have a Facebook account not read it, but the algorithms created by Facebook determines who can see it, and Facebook can **charge the poster of the content if they want to reach a certain number of people or a specific demographic.**[^4]  
 And that is why the open technologies of blogs and podcasts are important: because they are available to _everyone_ and the only thing deciding how many readers/listeners/viewers you get is how good the content is. No one controls what we can say on the internet, and no one controls who see what you have to see. It truly is freedom of expression.  
 
@@ -45,3 +45,5 @@ And I didn't even talk about how awesome it is that they've avoided being taken 
 [^3]: Don't worry, I'm already near 1,000 words so I won't take long.
 [^4]: Sadly, it seems like this isn't just a _could_, I hear that they definitely do this.
 [^5]: There are a few cases where they have `delisted` certain shows, the recent kerfuffle with Alex Jones being the most noteworthy.
+[^6]: Dearth
+:    A scarce supply; a lack
