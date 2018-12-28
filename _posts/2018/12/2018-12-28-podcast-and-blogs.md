@@ -1,4 +1,5 @@
 ---
+layout: post
 Title: Podcasts (and Blogs) and Why They Matter
 Author: Logan G
 ---
