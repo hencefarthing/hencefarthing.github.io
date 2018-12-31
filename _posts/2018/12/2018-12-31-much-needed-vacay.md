@@ -2,7 +2,7 @@
 layout: post
 author: Alex B
 title: Sri Lanka - A Much Needed Vacation
-categories: travel sri-lanka ultimate
+categories: travel sri-lanka
 ---
 
 Twenty Eighteen (2018) has proven quite difficult for one of my favorite people. She has suffered through heartbreak, a rejected Schengen visa, multiple new job offers that fell through last minute, and more. That list doesn't even cover her struggles with home life or her current place of employment. To put it lightly, 2018 has been rough. I've tried being there for her when needed - a shoulder to cry on, a place to vent with no judgement, a safe haven where real life can be set aside as we discuss dreamy travel destinations, living a minimalistic lifestyle, and spreading ultimate. But what's better than a person to talk to? Experiencing an entirely new country with new people, food, and culture. That's where Sri Lanka comes in.
