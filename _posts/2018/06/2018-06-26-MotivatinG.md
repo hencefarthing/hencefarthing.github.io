@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Logan G
-categories: theme
-title: The Secret to Success _Isn't_ You
+categories: on-theme
+title: The Secret to Success Isn't You
 ---
 
 For those of you who don't know me,[^1] I have spent the last several years struggling with some movement difficulties, in large part thanks to the foolishness and arrogance of Past Logan.[^2] Throughout those years, I've felt lots of ways about these difficulties -- acceptance, anger, sadness, regret, frustration, optimism, fear, etc… There were days I tried to come to grips that I would just be like this forever. There were days I thought it would go away if I only did these certain things a few times. ~~There's been days~~ Every day I've felt anger and frustration and past me for getting me in this mess. Or not doing enough to get me out of it.
