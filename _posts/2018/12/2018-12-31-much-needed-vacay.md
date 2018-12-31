@@ -33,7 +33,7 @@ Here's a picture of the two of us on the bus. We were quite sleep deprived, in c
 
 ![Bus from Colombo Airport to Downtown Colombo](/images/srilanka/ColomboAirportBus.jpg)
 
-We waited about 45 minutes with AC leaking through the vents in the roof [^6] before embarking on our joy-ride to downtown Colombo. The next 45 minutes were absolutely incredible. So much green everywhere, lots of water in streams, puddles, lakes... A mentally healing experience. This was absolutely one of the main reasons Dina and I had to escape Egypt for a few days.
+We waited about 45 minutes with AC leaking through the vents in the roof [^6] before embarking on our joy-ride to downtown Colombo. The next 45 minutes were absolutely incredible. So much green everywhere, lots of water in streams, puddles, lakes... A mentally healing experience. Obviously, Cairo doesn't have many of those features. Yes there are some grassy patches, yes the Nile runs through the city, but it's incredibly rare to find green surrounding you, as far as the eye can see. Dina and I literally couldn't stop staring out the window at the heavenly view.
 
 ![Outside the window of the bus from Colombo Airport to Downtown Colombo](/images/srilanka/WindowView1.jpg)
 
