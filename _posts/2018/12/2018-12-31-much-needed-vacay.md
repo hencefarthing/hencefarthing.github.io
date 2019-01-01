@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Alex B
-title: Sri Lanka - A Much Needed Vacation
+title: Sri Lanka - A Much Needed Vacation (Part 1)
 categories: travel sri-lanka
 ---
 
