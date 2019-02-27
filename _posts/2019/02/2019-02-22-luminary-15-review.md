@@ -1,8 +1,8 @@
 ---
-title: Luminary 15 Review: A Small Bag Grows Up
+title: Luminary 15 Review A Small Bag Grows Up
 author: Logan G
 layout: post
-categories: Review
+categories: review
 ---
 This review was initially posted on the [Tom Bihn forums.][1]
 
