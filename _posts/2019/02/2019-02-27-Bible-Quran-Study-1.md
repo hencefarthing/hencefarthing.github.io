@@ -104,7 +104,7 @@ Overall, the Quran is a "guide for every conceivable aspect of human life, actio
     - Here to transofrm the hearts of his people so they can truly love God, their neighbor, and their enemy
 - Chap 8-10: bringing the kingdom into the lives of people
 
-# Thank you
+# Thanks!
 
 So there you have it! Above are the notes from my first discussion with Alicia regarding the Bible and the Quran. Thanks for reading!
 
