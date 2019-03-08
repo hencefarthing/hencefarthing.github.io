@@ -3,8 +3,6 @@ layout: default
 ---
 
 <div class="posts">
-    <h1>Posts:</h1>
-
     {% for post in site.posts %}
         <article class="post">
 
@@ -37,9 +35,7 @@ layout: default
         </article>
     {% endfor %}
 
-    <h1>Briefs:</h1>
-
-    {% for briefs in site.briefs %}
+    {% for brief in site.briefs %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
