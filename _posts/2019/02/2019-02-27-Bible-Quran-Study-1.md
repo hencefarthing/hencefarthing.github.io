@@ -82,7 +82,9 @@ Overall, the Quran is a "guide for every conceivable aspect of human life, actio
 
 # Studying the Bible
 
-## Matthew (in the New Testament) - part 1 - https://www.youtube.com/watch?v=3Dv4-n6OYGI
+## Matthew (in the New Testament) Ch. 1-13
+
+Video link here: [Read Scripture: Matthew Ch. 1-13](https://www.youtube.com/watch?v=3Dv4-n6OYGI)
 
 - One of the earliest accounts of the Jesus of Nazareth - his life, death, and resurrection
 - Over 30 - 40 years of oral tradition brought into one book (Matthew) - by Matthew - designed to highlight themes about jesus
