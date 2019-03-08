@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="posts">
+    {% for brief in site.briefs %}
+        <article class="post">
+
+            <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
+
+            {% if brief.categories.size > 0 %}
+            <div class="categories">
+                <span>Categories:</span> 
+                <span class="category-list">
+                    {% for category in brief.categories %}
+                    <a href="{{ site.baseurl }}/categories/{{category}}" class="category">{{ category }}</a>
+                        {% if forloop.rindex > 1 %}
+                        <span>,</span>
+                        {% endif %}
+                    {% endfor %}
+                </span>
+            </div>
+            {% endif %}
+
+            <!-- added from post.html -->
+            <div class="date">
+                by {{ brief.author }} - {{ brief.date | date: "%B %e, %Y" }}
+            </div>
+
+            <div class="entry">
+                {{ brief.excerpt }}
+            </div>
+
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+    {% endfor %}
+</div>
