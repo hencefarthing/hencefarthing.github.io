@@ -104,4 +104,5 @@ defaults:
 # collection for briefs (https://jekyllrb.com/docs/collections/)
 collections:
   briefs:
+    output: true
     permalink: /:collection/:year/:month/:day/:title/
