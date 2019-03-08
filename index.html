@@ -34,4 +34,8 @@ layout: default
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
     {% endfor %}
+
+    {% for brief in site.briefs %}
+        <p>{brief.title}</p>
+    {% endfor %}
 </div>
