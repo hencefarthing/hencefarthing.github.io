@@ -100,3 +100,8 @@ defaults:
     values:
       layout: "category-page"
       title: "Category"
+
+# collection for briefs (https://jekyllrb.com/docs/collections/)
+collections:
+  briefs:
+    permalink: /:collection/:name
