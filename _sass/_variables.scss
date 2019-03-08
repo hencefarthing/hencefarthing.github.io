@@ -45,3 +45,9 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+// Large laptop / desktop breakpoints
+@mixin largeScreen {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
