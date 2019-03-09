@@ -4,7 +4,10 @@ author: Logan G
 layout: post
 categories: review
 ---
-# A Small Bag Grows Up
+
+This is a review of the [Luminary 15][6] that I initially posted on the [Tom Bihn forums.][1]
+
+## A Small Bag Grows Up
 This review was initially posted on the [Tom Bihn forums.][1]
 
 In this version of the review I have omitted some of the basics, which are covered on the product page, or in the other great reviews in the forums. I have not tried a pantheon of Tom Bihn bags like many of the members of the forums, partially because of a small bag budget and partially because I tend to only buy something if I am >90% certain it is right for me after hours of extensive research (aerospace engineers are the worst). As such, I will also not be comparing the Luminary to any other bags, but rather detailing why I was counting the days until I could buy one, and what my impressions are now that I've used it for a week.  
