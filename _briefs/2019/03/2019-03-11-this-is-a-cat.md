@@ -4,4 +4,4 @@ author: Logan G
 title: I'm trying to figure out the dates on these briefs
 ---
 This is not a cat.
-![it is a picture of a cat](/briefs/cat.jpeg)
+![it is a picture of a cat](/briefs/03/cat.jpeg)
