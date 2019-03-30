@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- TODO: extract posts into list-posts.html file -->
 <div class="posts">
     {% for post in site.posts %}
         <article class="post">
@@ -38,4 +39,4 @@ layout: default
 
 <div class="space"></div>
 
-<div class="briefs">test</div>
+{% include list-briefs.html %}
