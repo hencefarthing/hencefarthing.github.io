@@ -2,40 +2,7 @@
 layout: default
 ---
 
-<!-- TODO: extract posts into list-posts.html file -->
-<div class="posts">
-    {% for post in site.posts %}
-        <article class="post">
-
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-            {% if post.categories.size > 0 %}
-            <div class="categories">
-                <span>Categories:</span> 
-                <span class="category-list">
-                    {% for category in post.categories %}
-                    <a href="{{ site.baseurl }}/categories/{{category}}" class="category">{{ category }}</a>
-                        {% if forloop.rindex > 1 %}
-                        <span>,</span>
-                        {% endif %}
-                    {% endfor %}
-                </span>
-            </div>
-            {% endif %}
-
-            <!-- added from post.html -->
-            <div class="date">
-                by {{ post.author }} - {{ post.date | date: "%B %e, %Y" }}
-            </div>
-
-            <div class="entry">
-                {{ post.excerpt }}
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-    {% endfor %}
-</div>
+{% include list-posts.html %}
 
 <div class="space"></div>
 
