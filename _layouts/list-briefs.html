@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="posts">
-    {% for brief in site.briefs | sort: "url" %}
+    {% for brief in site.briefs | sort: brief.url %}
         <article class="post">
 
-            <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
+            <h1><a href="{{ site.baseurl }}{{ brief.url }}">->{{ brief.title }}</a></h1>
 
             {% if brief.categories.size > 0 %}
             <div class="categories">
