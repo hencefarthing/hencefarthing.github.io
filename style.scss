@@ -273,11 +273,9 @@ nav {
     grid-template-areas: 'posts space briefs';
     grid-template-columns: auto 1px 30%;
   
-    // .posts {}
     .space {
       border-left: 1px dashed $lightGray;
     }
-    // .briefs {}
   }
 }
 
