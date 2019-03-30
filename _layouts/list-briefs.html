@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
     <!-- TRY REVERSING IN A NEW VARIABLE -->
-    {% assign my_array = "apples, oranges, peaches, plums" %}
+    {% assign my_array = "apples, oranges, peaches, plums" | reverse %}
 
     {% for item in my_array %}
     <p>
