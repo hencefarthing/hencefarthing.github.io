@@ -4,11 +4,19 @@ layout: default
 
 <div class="posts">
     <!-- TRY REVERSING IN A NEW VARIABLE -->
-    {% assign my_array = ["apples", "oranges", "peaches", "plums"] | reverse %}
+    {% assign my_array = site.briefs %}
+    {% assign my_array2 = site.briefs | reverse %}
 
     {% for item in my_array %}
     <p>
-        {{ item }}
+        {{ item.title }}
+    </p>
+    {% endfor %}
+    
+    <!-- backwards -->
+    {% for item in my_array2 %}
+    <p>
+        {{ item.title }}
     </p>
     {% endfor %}
 
