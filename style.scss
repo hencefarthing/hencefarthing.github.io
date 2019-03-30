@@ -270,17 +270,17 @@ nav {
   // .briefs {}
 }
 
-.posts > .post {
+.posts > .post, .briefs > .brief {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+.posts > .post:last-child, .briefs > .brief:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }
 
-.post {
+.post, .brief {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $base3;

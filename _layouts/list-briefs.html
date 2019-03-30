@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="briefs">
     <!-- Reverse briefs so most recent are on top -->
     {% assign briefs_reversed = site.briefs | reverse %}
 
     {% for brief in briefs_reversed %}
-        <article class="post">
+        <article class="brief">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
 
