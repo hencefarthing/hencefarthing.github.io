@@ -3,17 +3,10 @@ layout: default
 ---
 
 <div class="posts">
-    <!-- TRY REVERSING IN A NEW VARIABLE -->
-    {% assign my_array2 = site.briefs | reverse %}
-    
-    <!-- backwards -->
-    {% for item in my_array2 | reverse %}
-    <p>
-        {{ item.title }}
-    </p>
-    {% endfor %}
+    <!-- Reverse briefs so most recent are on top -->
+    {% assign briefs_reversed = site.briefs | reverse %}
 
-    {% for brief in site.briefs | reverse %}
+    {% for brief in briefs_reversed %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">-{{ brief.title }}</a></h1>
