@@ -258,7 +258,14 @@ nav {
 // -> large = 1/3 briefs, 2/3 posts?
 //
 #main {
-  display: block;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: 'posts' 'space' 'briefs';
+  grid-template-rows: auto 1px auto;
+
+  .space {
+    border-top: 1px dashed $darkerGray;
+  }
 
   @include largeScreen {
     display: grid;
