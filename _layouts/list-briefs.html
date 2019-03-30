@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-    {% for brief in site.briefs %}
+    {% for brief in site.briefs | sort: "title" %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
