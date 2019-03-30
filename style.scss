@@ -258,16 +258,20 @@ nav {
 // -> large = 1/3 briefs, 2/3 posts?
 //
 #main {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-areas: 'posts space briefs';
-  grid-template-columns: auto 1px 30%;
+  display: block;
 
-  // .posts {}
-  .space {
-    border-left: 1px dashed $lightGray;
+  @include largeScreen {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 'posts space briefs';
+    grid-template-columns: auto 1px 30%;
+  
+    // .posts {}
+    .space {
+      border-left: 1px dashed $lightGray;
+    }
+    // .briefs {}
   }
-  // .briefs {}
 }
 
 .posts > .post, .briefs > .brief {
