@@ -2,6 +2,7 @@
 layout: brief
 author: Alex B
 title: gItscuse Me! 
+categories: technology
 ---
 
 In a recent [_brief_](https://hencefarthing.blog/briefs/2019/03/21/git-squash-merge/) I described a delicious trick I found on `github` called "Squash 'n Merge". After a few days I found this candy had lured me into an ugly, sketchy-looking house of never-ending git commits and ever-elongating pull requests. Why? I guess I hadn't read the fine print. [^1] 
