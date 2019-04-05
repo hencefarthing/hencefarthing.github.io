@@ -4,7 +4,7 @@
     <h1><a href="{{ site.baseurl }}/briefs">Just to be brief...</a></h1>
     {% endunless %}
 
-    <!-- Briefs are reversed so most recent are on top -->
+    <!-- Reverse briefs so most recent are on top -->
     {% assign briefs_reversed = site.briefs | reverse %}
 
     {% for brief in briefs_reversed %}
