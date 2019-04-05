@@ -8,6 +8,8 @@
     {% assign briefs_reversed = site.briefs | reverse %}
 
     {% for brief in briefs_reversed %}
+
+        {% if forloop.index <= page.display_num_briefs %}
         <article class="brief">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
@@ -35,5 +37,7 @@
                 {{ brief.excerpt }}
             </div> -->
         </article>
+        {% endif %}
+        
     {% endfor %}
 </div>
