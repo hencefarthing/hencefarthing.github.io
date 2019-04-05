@@ -9,7 +9,10 @@
 
     {% for brief in briefs_reversed %}
 
-        {% if forloop.index <= page.display_num_briefs %}
+        {% comment %} 'all' briefs shown on briefs page {% endcomment %}
+        {% comment %} specific # shown on main page {% endcomment %}
+        
+        {% if page.display_num_briefs == "all" or forloop.index <= page.display_num_briefs %}
         <article class="brief">
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
