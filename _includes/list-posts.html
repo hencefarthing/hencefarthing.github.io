@@ -1,12 +1,7 @@
 <div class="posts">
     {% for post in site.posts %}
 
-        <p>{{ page.display_num_posts }}</p>
-
-        {% if forloop.index <= 5 %}
-            <p>test</p>
-        {% endif %}
-        
+        {% if forloop.index <= page.display_num_posts %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -36,5 +31,7 @@
 
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
+        {% endif %}
+        
     {% endfor %}
 </div>
