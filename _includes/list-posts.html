@@ -1,12 +1,11 @@
 <div class="posts">
     {% for post in site.posts %}
 
+        <p>{{ page.display_num_posts }}</p>
+
         {% if forloop.index <= 5 %}
             <p>test</p>
         {% endif %}
-
-        <p>{{ forloop.index }}</p>
-        <p>{{ forloop.index0 }}</p>
         
         <article class="post">
 
