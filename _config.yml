@@ -59,6 +59,8 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 
 # The release of Jekyll Now that you're using
+# Note: v1.2.0 is compatible with Jekyll 3
+# https://github.com/barryclark/jekyll-now/releases
 version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
