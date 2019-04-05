@@ -1,9 +1,13 @@
 <div class="posts">
     {% for post in site.posts %}
+
+        {% if forloop.rindex < 5 %}
+            <p>test</p>
+        {% endif %}
         
         <article class="post">
 
-            <h1>{% forloop.rindex %}-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h1>-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
             {% if post.categories.size > 0 %}
             <div class="categories">
