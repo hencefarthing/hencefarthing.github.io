@@ -1,7 +1,9 @@
 <div class="posts">
     {% for post in site.posts %}
 
-        {% if forloop.index <= page.display_num_posts %}
+        <p>{{ page.display_num_posts }}</p>
+
+        {% if page.display_num_posts == "all" or forloop.index <= page.display_num_posts %}
         <article class="post">
 
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -32,6 +34,6 @@
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
         {% endif %}
-        
+
     {% endfor %}
 </div>
