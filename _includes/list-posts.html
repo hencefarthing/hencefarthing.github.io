@@ -1,8 +1,10 @@
 <div class="posts">
     {% for post in site.posts %}
 
-        {% comment %} 'all' posts shown on /posts page {% endcomment %}
-        {% comment %} specific # shown on home page {% endcomment %}
+        {% comment %}
+            'all' posts shown on /posts page
+            specific # of posts shown on home page
+        {% endcomment %}
 
         {% if page.display_num_posts == "all" or forloop.index <= page.display_num_posts %}
         <article class="post">
