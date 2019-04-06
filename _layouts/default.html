@@ -39,6 +39,9 @@
     <div>
       # posts / briefs:
       {{ page.display_num_posts }},
+      {{ page.display_num_posts == empty }}, 
+      {{ page.display_num_posts == "" }}, 
+      {{ page.display_num_posts == nil }};
       {{ page.display_num_briefs }}
     </div>
 
