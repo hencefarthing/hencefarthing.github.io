@@ -54,7 +54,7 @@
     {% else %}
         <h4 id="most-posts">
             <a href="{{ site.baseurl }}/posts">
-                View all {{ site.posts.length }} posts?
+                View all {{ site.posts | size }} posts?
             </a>
         </h4>
     {% endif %}
