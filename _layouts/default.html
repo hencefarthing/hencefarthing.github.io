@@ -33,19 +33,13 @@
 
     {% comment %}
         if displaying 'all' briefs or posts, give content-div id 'main-all'
+        if num-posts or num-briefs is nil (not defined), do same as 'main-all'
         if displaying specific #, give content-div id 'main-home'
     {% endcomment %}
 
-    <div>
-      # posts / briefs:
-      {{ page.display_num_posts }},
-      {% if page.display_num_posts == empty %}empty, {% endif %}
-      {% if page.display_num_posts == "" %}"", {% endif %}
-      {% if page.display_num_posts == nil %}nil, {% endif %}
-      {{ page.display_num_briefs }}
-    </div>
-
     {% if page.display_num_posts == "all" or page.display_num_briefs == "all" %}
+    <div id="main-all" role="main" class="container">
+    {% if page.display_num_posts == nil or page.display_num_briefs == nil %}
     <div id="main-all" role="main" class="container">
     {% else %}
     <div id="main-home" role="main" class="container">
