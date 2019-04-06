@@ -32,17 +32,17 @@
     </div>
 
     {% comment %}
-        if displaying 'all' briefs or posts, give content-div id 'main-all'
-        if num-posts or num-briefs is nil (not defined), do same as 'main-all'
-        if displaying specific #, give content-div id 'main-home'
+        if displaying 'all' briefs or posts, give content-div id 'main-single'
+        if num-posts or num-briefs is nil (single post / brief), also display 'main-single'
+        if displaying specific #, give content-div id 'main-multi'
     {% endcomment %}
 
     {% if page.display_num_posts == "all" or page.display_num_briefs == "all" %}
-    <div id="main-all" role="main" class="container">
+    <div id="main-single" role="main" class="container">
     {% elsif page.display_num_posts == nil or page.display_num_briefs == nil %}
-    <div id="main-all" role="main" class="container">
+    <div id="main-single" role="main" class="container">
     {% else %}
-    <div id="main-home" role="main" class="container">
+    <div id="main-multi" role="main" class="container">
     {% endif %}
       {{ content }}
     </div>

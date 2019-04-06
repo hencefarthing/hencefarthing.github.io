@@ -251,11 +251,11 @@ nav {
 }
 
 //
-// #main-home (root site)
+// #main-multi (multi panels, based on screen width)
 // -> mobile = vertical grid, 1 column
 // -> large = 30% briefs, 70% posts
 //
-#main-home {
+#main-multi {
   display: grid;
   grid-gap: 15px;
   grid-template-areas: 'posts' 'space' 'briefs';
@@ -277,8 +277,8 @@ nav {
   }
 }
 
-// #main-all (/posts or /briefs)
-#main-all {
+// #main-single (single column for /posts and / or /briefs)
+#main-single {
   display: block;
 }
 
