@@ -39,7 +39,7 @@
 
     {% if page.display_num_posts == "all" or page.display_num_briefs == "all" %}
     <div id="main-all" role="main" class="container">
-    {% if page.display_num_posts == nil or page.display_num_briefs == nil %}
+    {% elsif page.display_num_posts == nil or page.display_num_briefs == nil %}
     <div id="main-all" role="main" class="container">
     {% else %}
     <div id="main-home" role="main" class="container">
