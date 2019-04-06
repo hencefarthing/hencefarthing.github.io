@@ -37,9 +37,15 @@
       {{ page.display_num_briefs }}
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+    {% if page.display_num_posts == "all" or page.display_num_briefs == "all" %}
+      <div id="main-all" role="main" class="container">
+        {{ content }}
+      </div>
+    {% else %}
+      <div id="main" role="main" class="container">
+        {{ content }}
+      </div>
+    {% endif %}
 
     <div class="wrapper-footer">
       <div class="container">
