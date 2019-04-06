@@ -31,21 +31,18 @@
       </div>
     </div>
 
-    <div>
-      extra data:
-      {{ page.display_num_posts }}, 
-      {{ page.display_num_briefs }}
-    </div>
+    {% comment %}
+        if displaying 'all' briefs or posts, give content-div id 'main-all'
+        if displaying specific #, give content-div id 'main-home'
+    {% endcomment %}
 
     {% if page.display_num_posts == "all" or page.display_num_briefs == "all" %}
-      <div id="main-all" role="main" class="container">
-        {{ content }}
-      </div>
+    <div id="main-all" role="main" class="container">
     {% else %}
-      <div id="main" role="main" class="container">
-        {{ content }}
-      </div>
+    <div id="main-home" role="main" class="container">
     {% endif %}
+      {{ content }}
+    </div>
 
     <div class="wrapper-footer">
       <div class="container">
