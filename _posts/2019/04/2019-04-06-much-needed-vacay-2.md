@@ -105,10 +105,10 @@ Dina and I sat and watched while many people came to pray and water the Bodhi tr
 
 I don't have much more to say about our visit at Gangaramaya Temple, but I want to share a few of my favorite photos taken here :)
 
-<img src="images/srilanka/Gangaramaya1.jpeg" alt="At the entrance" width="50%" />
-<img src="images/srilanka/Gangaramaya4.jpeg" alt="Colorful story paintings" width="50%" />
-<img src="images/srilanka/Gangaramaya2.jpeg" alt="Many colors and statues" width="50%" />
-<img src="images/srilanka/Gangaramaya3.jpeg" alt="Scary dude!" width="50%" />
+<img src="/images/srilanka/Gangaramaya1.jpeg" alt="At the entrance" width="49.5%" />
+<img src="/images/srilanka/Gangaramaya4.jpeg" alt="Colorful story paintings" width="49.5%" />
+<img src="/images/srilanka/Gangaramaya2.jpeg" alt="Many colors and statues" width="49.5%" />
+<img src="/images/srilanka/Gangaramaya3.jpeg" alt="Scary dude!" width="49.5%" />
 
 ## Back Home
 
