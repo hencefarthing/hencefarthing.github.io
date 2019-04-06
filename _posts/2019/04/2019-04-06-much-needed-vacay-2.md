@@ -69,7 +69,7 @@ If you're like me, delicious food in large quantities gives you a few feelings:
 1. Can I have some more?
 1. Food coma 😴
 
-Lucky for me, Dina already had the minset that we would be **relaxing** and **de-stressing** on this trip. We happily took the next few hours to let our food babies digest a bit.
+Lucky for me, Dina already had the mindset that we would be **relaxing** and **de-stressing** on this trip. We happily took the next few hours to let our food babies digest a bit.
 
 Eventually we decided it was time to begin the Colombo adventure! Dina had already done detailed planning of sites to see and how to efficiently travel between each, so all I had to do was get my touristy clothes on and get out the door! I almost felt like Dina was my tourguide and I was on a trip designed for lazy people. Not because I hadn't moved my body much at this point, but because I hadn't done any research into "tourist destinations of Colombo" or "What Colombo is known for" - Dina had done all of that for us. [^10]
 
