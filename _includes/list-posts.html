@@ -37,4 +37,18 @@
         {% endif %}
 
     {% endfor %}
+
+    {% comment %}
+        if displaying 'all' posts, do nothing here.
+        if displaying specific # of posts, include link to 'all' posts page
+    {% endcomment %}
+
+    {% unless page.display_num_posts == "all" %}
+        <h1 id="most-posts">
+            <a href="{{ site.baseurl }}/posts">
+                View all {{ page.display_num_posts }} other posts by clicking here!
+            </a>
+        </h1>
+    {% endunless %}
+
 </div>

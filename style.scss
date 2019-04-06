@@ -277,6 +277,10 @@ nav {
   }
 }
 
+.posts > h1 #more-posts {
+  border-bottom: 1px solid $lightGray;
+}
+
 .posts > .post, .briefs > .brief {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
