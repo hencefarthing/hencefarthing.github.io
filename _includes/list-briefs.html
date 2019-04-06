@@ -1,7 +1,7 @@
 <div class="briefs">
 
     {% unless page.skip_title_link == true %}
-    <h1><a href="{{ site.baseurl }}/briefs">Just to be brief...</a></h1>
+        <h1>Just to be brief...</h1>
     {% endunless %}
 
     {% comment %} Reverse briefs so most recent are on top {% endcomment %}
@@ -41,4 +41,23 @@
         {% endif %}
         
     {% endfor %}
+
+    {% comment %}
+        if displaying 'all' briefs, add "back home" link.
+        if displaying specific # of briefs, include link to 'all' briefs page
+    {% endcomment %}
+
+    {% if page.display_num_briefs == "all" %}
+        <h4>
+            <a href="{{ site.baseurl }}/">
+                Go back home?
+            </a>
+        </h4>
+    {% else %}
+        <h4>
+            <a href="{{ site.baseurl }}/briefs">
+                View all {{ site.briefs | size }} briefs?
+            </a>
+        </h4>
+    {% endif %}
 </div>
