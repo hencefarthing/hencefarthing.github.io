@@ -15,7 +15,7 @@ Anyway, in case you don't remember part 1 [^1] of this series, I gave a brief ex
 
 Wait a minute, I must be thinking of a different trip...
 
-Oh right, now I remember where I left off... Dina and I had just barely arrived at [Anarva](https://www.booking.com/hotel/lk/anarva-mount-lavinia.en-gb.html), the hotel we planned to stay at for the next 3 nights. It's now 9:00am [^3] and all we can think about is getting to our rooms and _passing out_.
+Oh right, now I remember where I left off... Dina and I had just barely arrived at [Anarva](https://www.booking.com/hotel/lk/anarva-mount-lavinia.en-gb.html) [^2], the hotel we planned to stay at for the next 3 nights. It's now 9:00am [^3] and all we can think about is getting to our rooms and _passing out_.
 
 We stagger through the main entrance like a couple of zombies smelling brains up ahead. The main entrance is about as plain as possible - the marble-tiled room is not much larger than my living room in Cairo, and the only doors are for baggage check and 3 elevators. The friendly bellman (I forgot his name!!) takes our bags and instructs us to head to the lobby floor for check-in [^4].
 
