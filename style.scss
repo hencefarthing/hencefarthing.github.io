@@ -277,10 +277,6 @@ nav {
   }
 }
 
-.posts > h1 #more-posts {
-  border-bottom: 1px solid $lightGray;
-}
-
 .posts > .post, .briefs > .brief {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -288,7 +284,7 @@ nav {
 
 .posts > .post:last-child, .briefs > .brief:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
+  // border-bottom: none;
 }
 
 .post, .brief {
