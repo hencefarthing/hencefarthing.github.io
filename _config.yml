@@ -90,6 +90,7 @@ exclude:
   - README.md
   - CNAME
   - _drafts
+  - _scripts
 
 include:
   - _js
