@@ -44,7 +44,7 @@ const readFile = (dir) =>
 
 console.log("Begin analysis!");
 
-readDirectory("../_posts")
+readDirectory("../../_posts")
     .then(({ dir, files: years }) => {
         let yearPromises = years.map((year) => readDirectory(`${dir}/${year}`));
 
@@ -151,7 +151,7 @@ readDirectory("../_posts")
 
         console.log("Finding existing categories...");
 
-        return Promise.all([readDirectory("../categories"), allCategories]);
+        return Promise.all([readDirectory("../../categories"), allCategories]);
     })
     .then(([{ dir, files: catFiles }, allCategories]) => {
         console.log("Filtering out non-.md files...");
@@ -183,10 +183,11 @@ readDirectory("../_posts")
             let newFile = `${dir}/${file}.md`;
 
             // NOTE: DO NOT CHANGE SPACING IN TEMPLATE BELOW!!!
-            let fileText = `---
-permalink: /categories/${file}
-categoryName: ${file}
----`;
+            let fileText =
+                "---" +
+                "permalink: /categories/${file}" +
+                "categoryName: ${file}" +
+                "---";
             // NOTE: DO NOT CHANGE SPACING IN TEMPLATE ABOVE!!!
 
             writePromises.push(writeFile(newFile, fileText));
