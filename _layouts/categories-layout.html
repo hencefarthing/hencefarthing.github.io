@@ -6,7 +6,12 @@ layout: page
     {% comment %}
         Sort array of categories, then display them
     {% endcomment %}
-    {% assign sortedCats = site.categories | sort_natural: 'categoryName' %}
+    {% assign sortedCats = site.categories | sort 'categoryName' %}
+
+    {% assign sortedCats2 = site.categories | sort 'categoryName' %}
+    {% for cat in sortedCats2 %}
+        <p>{{ cat.categoryName }}</p>
+    {% endfor %}
 
     {% for category in sortedCats %}
         {% comment %}
