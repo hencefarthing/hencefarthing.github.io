@@ -19,6 +19,11 @@
 
             <h1><a href="{{ site.baseurl }}{{ brief.url }}">{{ brief.title }}</a></h1>
 
+            <!-- added from post.html -->
+            <div class="date">
+                by {{ brief.author }} - {{ brief.date | date: "%B %e, %Y" }}
+            </div>
+
             {% if brief.categories.size > 0 %}
             <div class="categories">
                 <span>Categories:</span> 
@@ -31,12 +36,16 @@
                     {% endfor %}
                 </span>
             </div>
-            {% endif %}
-
-            <!-- added from post.html -->
-            <div class="date">
-                by {{ brief.author }} - {{ brief.date | date: "%B %e, %Y" }}
+            {% else %}
+            <div class="categories">
+                <span>Categories:</span>
+                <span class="category-list">
+                    <a href="{{ site.baseurl }}/categories/uncategorized" class="category">
+                        (uncategorized)
+                    </a>
+                </span>
             </div>
+            {% endif %}
         </article>
         {% endif %}
         
