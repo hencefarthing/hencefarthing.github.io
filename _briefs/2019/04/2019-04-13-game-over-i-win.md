@@ -2,7 +2,7 @@
 layout: brief
 author: Alex B
 title: Game Over - I Win?
-categories: games uncategorized
+categories: games
 ---
 
 Recently I finished the final level (700 out of 700) in the first world of the smartphone game [Orbia](https://play.google.com/store/apps/details?id=com.joxdev.orbia).
