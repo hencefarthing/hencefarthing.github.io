@@ -36,15 +36,17 @@
                     {% endfor %}
                 </span>
             </div>
-            {% else %}
-            <div class="categories">
-                <span>Categories:</span>
-                <span class="category-list">
-                    <a href="{{ site.baseurl }}/categories/uncategorized" class="category">
-                        (uncategorized)
-                    </a>
-                </span>
-            </div>
+            {% comment %}
+                {% else %}
+                <div class="categories">
+                    <span>Categories:</span>
+                    <span class="category-list">
+                        <a href="{{ site.baseurl }}/categories/uncategorized" class="category">
+                            (uncategorized)
+                        </a>
+                    </span>
+                </div>
+            {% endcomment %}
             {% endif %}
         </article>
         {% endif %}
