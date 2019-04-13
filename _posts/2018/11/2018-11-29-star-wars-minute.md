@@ -2,7 +2,7 @@
 layout: post
 author: Logan G
 title: Watching Along With Star Wars Minute
-categories: ios automation StarWars
+categories: ios automation starwars
 ---
 
 One of my favorite podcast is [Star Wars Minute][SWM], the daily podcast in which they analyze, scrutinize, and celebrate the _Star Wars_ movies one minute at a time.[^1]  As I write this, they are just beginning their seventh season, featuring _The Force Awakens_. For those of you not quite as entrenched in _Star Wars_ as me, this is the first movie after Disney bought Lucasfilm and hasn't quite been out for 3 years. Seeing how that is less than 2 decades and I've only seen the movie a handful of times, I cannot quite recite it the way I can the Lucas-era Trilogies. So I decided it would be fun to watch the relevant minute of the movie immediately before listening to the podcast each morning. And, being a geek, I felt compelled to make it **way** more complicated than it needed to be.  
