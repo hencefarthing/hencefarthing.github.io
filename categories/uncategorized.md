@@ -1,4 +1,4 @@
 ---
 permalink: /categories/uncategorized
-categoryName: (uncategorized)
+categoryName: uncategorized
 ---
