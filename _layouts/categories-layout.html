@@ -3,8 +3,13 @@ layout: page
 ---
 
 <div id="categories">
+    {% comment %}
+        Sort array of categories, then display them
+    {% endcomment %}
+    {% assign sortedCats = site.categories | sort 'categoryName' %}
+
     <!-- 'category' has lots of data, so just get first item -->
-    {% for category in site.categories %}
+    {% for category in sortedCats %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div class="category-group" id="#{{ category_name | slugify }}">
         <h3 class="category-head">
