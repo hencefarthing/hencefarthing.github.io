@@ -8,9 +8,10 @@ layout: page
     {% endcomment %}
     {% assign sortedCats = site.categories | sort 'categoryName' %}
 
-    {% assign sortedCats2 = site.categories | map 'categoryName' %}
+    {% assign sortedCats2 = site.categories | sort 'categoryName' %}
     {% for cat in sortedCats2 %}
-        <p>{{ cat }}</p>
+        {% capture category_name %}{{ cat | first }}{% endcapture %}
+        <p>{{ category_name }}</p>
     {% endfor %}
 
     {% for category in sortedCats %}
