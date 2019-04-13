@@ -1,4 +1,4 @@
 ---
-permalink: /categories/StarWars
-categoryName: StarWars
+permalink: /categories/starwars
+categoryName: starwars
 ---
