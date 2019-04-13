@@ -10,7 +10,7 @@ layout: page
 
     {% assign sortedCats2 = site.categories | map 'categoryName' %}
     {% for cat in sortedCats2 %}
-        <p>{{ cat.categoryName }}</p>
+        <p>{{ cat }}</p>
     {% endfor %}
 
     {% for category in sortedCats %}
