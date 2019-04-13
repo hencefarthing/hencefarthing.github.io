@@ -10,11 +10,11 @@ layout: default
         Written on {{ page.date | date: "%B %e, %Y" }}
     </div>
 
-    {% if post.categories.size > 0 %}
+    {% if page.categories.size > 0 %}
     <div class="categories">
         <span>Categories:</span> 
         <span class="category-list">
-            {% for category in post.categories %}
+            {% for category in page.categories %}
             <a href="{{ site.baseurl }}/categories/{{category}}" class="category">{{ category }}</a>
                 {% if forloop.rindex > 1 %}
                 <span>,</span>
