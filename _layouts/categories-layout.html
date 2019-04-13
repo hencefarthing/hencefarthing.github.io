@@ -8,7 +8,7 @@ layout: page
     {% endcomment %}
     {% assign sortedCats = site.categories | sort 'categoryName' %}
 
-    {% assign sortedCats2 = site.categories | sort 'categoryName' %}
+    {% assign sortedCats2 = site.categories | map 'categoryName' %}
     {% for cat in sortedCats2 %}
         <p>{{ cat.categoryName }}</p>
     {% endfor %}
