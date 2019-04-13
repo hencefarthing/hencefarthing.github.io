@@ -10,6 +10,20 @@ layout: default
         Written on {{ page.date | date: "%B %e, %Y" }}
     </div>
 
+    {% if page.categories.size > 0 %}
+    <div class="categories">
+        <span>Categories:</span> 
+        <span class="category-list">
+            {% for category in page.categories %}
+            <a href="{{ site.baseurl }}/categories/{{category}}" class="category">{{ category }}</a>
+                {% if forloop.rindex > 1 %}
+                <span>,</span>
+                {% endif %}
+            {% endfor %}
+        </span>
+    </div>
+    {% endif %}
+
     <div class="entry">
         {{ content }}
     </div>
