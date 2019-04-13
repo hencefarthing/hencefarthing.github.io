@@ -1,46 +1,5 @@
-// get file system library
-const fs = require("fs");
-
-const readDirectory = (dir) =>
-    new Promise((resolve, reject) => {
-        fs.readdir(dir, (err, files) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-
-            resolve({ dir, files });
-        });
-    });
-
-const writeFile = (dir, data) =>
-    new Promise((resolve, reject) => {
-        fs.writeFile(dir, data, (err) => {
-            console.log("Writing to file:", dir);
-            if (err) {
-                reject(err);
-                return;
-            }
-
-            resolve({ dir });
-        });
-    });
-
-const readFile = (dir) =>
-    new Promise((resolve, reject) => {
-        fs.readFile(dir, "utf8", function(err, data) {
-            // handle error
-            if (err) {
-                reject(err);
-                return;
-            }
-
-            if (data === undefined)
-                reject("No data returned from file: " + dir);
-
-            resolve(data);
-        });
-    });
+// pull in needed modules
+const { readDirectory, readFile, writeFile } = require("./dirActions");
 
 console.log("Begin analysis!");
 
