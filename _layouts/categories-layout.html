@@ -6,24 +6,26 @@ layout: page
     {% comment %}
         Sort array of categories, then display them
     {% endcomment %}
-    {% assign sortedCats = site.categories | sort 'categoryName' %}
+    {% assign sortedCats = site.categories | upcase | sort 'categoryName' %}
 
-    <!-- 'category' has lots of data, so just get first item -->
     {% for category in sortedCats %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div class="category-group" id="#{{ category_name | slugify }}">
-        <h3 class="category-head">
-            <a href="{{ site.baseurl }}/categories/{{ category_name }}">#</a>
-            {{ category_name | upcase }}
-        </h3>
+        {% comment %}
+            'category' has lots of data, so just get first item
+        {% endcomment %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div class="category-group" id="#{{ category_name | slugify }}">
+            <h3 class="category-head">
+                <a href="{{ site.baseurl }}/categories/{{ category_name }}">#</a>
+                {{ category_name }}
+            </h3>
 
-        <ul>
-            {% for post in site.categories[category_name] %}
-            <li class="post-item">
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+            <ul>
+                {% for post in site.categories[category_name] %}
+                <li class="post-item">
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     {% endfor %}
 </div>
