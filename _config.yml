@@ -100,8 +100,8 @@ defaults:
   - scope:
       path: "/"
     values:
-      display_num_posts: 5
-      display_num_briefs: 6
+      display_num_posts2: 5
+      display_num_briefs2: 6
   - scope:
       path: "categories"
     values:
