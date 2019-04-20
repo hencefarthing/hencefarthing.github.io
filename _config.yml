@@ -98,10 +98,10 @@ include:
 # site defaults (https://jekyllrb.com/docs/configuration/)
 defaults:
   - scope:
-      path: ""
+      path: "/"
     values:
-      display_num_posts2: 5
-      display_num_briefs2: 5
+      display_num_posts: 5
+      display_num_briefs: 6
   - scope:
       path: "categories"
     values:
