@@ -5,9 +5,6 @@
         <h1>Just to be brief...</h1>
     {% endunless %}
 
-    <h1 id="default-from-_config-posts"># Posts: {{ page.display_num_posts2 }}</h1>
-    <h1 id="default-from-_config-brief"># Briefs: {{ page.display_num_briefs2 }}</h1>
-
     {% comment %} Reverse briefs so most recent are on top {% endcomment %}
     {% assign briefs_reversed = site.briefs | reverse %}
 
