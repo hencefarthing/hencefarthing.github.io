@@ -98,7 +98,7 @@ include:
 # site defaults (https://jekyllrb.com/docs/configuration/)
 defaults:
   - scope:
-      path: "/"
+      path: "index.html"
     values:
       display_num_posts2: 5
       display_num_briefs2: 6
