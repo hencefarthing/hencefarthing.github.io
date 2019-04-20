@@ -93,6 +93,7 @@ exclude:
   - _scripts
 
 include:
+  - _assets
   - _js
 
 # site defaults (https://jekyllrb.com/docs/configuration/)
