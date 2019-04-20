@@ -97,8 +97,12 @@ include:
 
 # site defaults (https://jekyllrb.com/docs/configuration/)
 defaults:
-  -
-    scope:
+  - scope:
+      path: ""
+    values:
+      display_num_posts: 5
+      display_num_briefs: 5
+  - scope:
       path: "categories"
     values:
       layout: "category-page"
