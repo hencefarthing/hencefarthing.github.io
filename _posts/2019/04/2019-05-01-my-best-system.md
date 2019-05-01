@@ -5,6 +5,7 @@ categories: family
 summary: An exploration of the calendars my wife and I have used to manage our life for the past 5 years.
 ---
 I hope it is apparent that I really like fiddling with my technology and the systems in my life. I tell myself I'll stop when I find the perfect system. This is the story of the only time I've actually stopped.  
+
 I've had an iPhone since 2013, and it is the right choice for me for boring reasons that are out of the scope of this post. But way back in 2015, my (now) wife had just given up her Samsung Galaxy for an iPhone and we had opened an iCloud family for convenience. Being young 20-somethings, we were both pretty busy with work and seeing friends and family, and despite living together we could never seem to remember who was supposed to be where and when.  
 I don't remember if I came up with it[^1], or if I heard about it somewhere, but I decided we should set up a series of shared calendars. These calendars have remained unchanged ever since. There are some downsides of our setup, which I will talk about later, but for anyone in a serious relationship I cannot recommend doing this more.  
 ## So whats the system?
