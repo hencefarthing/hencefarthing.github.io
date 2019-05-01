@@ -2,7 +2,7 @@
 title: My Best System
 author: Logan G
 categories: family
-summary: An exploration of the calendars my wife and I have used to manage our life for the past 5 years.
+excerpt: An exploration of the calendars my wife and I have used to manage our life for the past 5 years.
 ---
 I hope it is apparent that I really like fiddling with my technology and the systems in my life. I tell myself I'll stop when I find the perfect system. This is the story of the only time I've actually stopped.  
 
