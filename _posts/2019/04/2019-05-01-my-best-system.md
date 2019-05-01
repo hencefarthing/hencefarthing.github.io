@@ -1,3 +1,4 @@
+---
 title: My Best System
 author: Logan G
 categories: family
