@@ -3,6 +3,7 @@ title: Luminary 15 Review
 author: Logan G
 layout: post
 categories: review
+excerpt: This is a review of the [Luminary 15][6] that I initially posted on the [Tom Bihn forums.][1]
 ---
 
 This is a review of the [Luminary 15][6] that I initially posted on the [Tom Bihn forums.][1]
