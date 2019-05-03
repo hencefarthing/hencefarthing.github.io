@@ -3,6 +3,7 @@ title: Studying the Bible and Quran (I)
 author: Alex B
 layout: post
 categories: study bible quran
+excerpt: My attempt to see the similarities and differences between two worlds.
 ---
 
 These days I find myself trapped in a decent amount of routines. From work to frisbee, eating to sleeping, answering questions on StackOverflow [^1] to binge watching a show on Netflix / hours of YouTube / watching The Office... again. But recently I've picked up something new that I hope to make a more regular part of my life - studying religious texts. [^2]

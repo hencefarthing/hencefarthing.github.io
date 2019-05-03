@@ -3,6 +3,7 @@ layout: post
 author: Alex B
 title: Sri Lanka - A Much Needed Vacation (Part 2)
 categories: travel sri-lanka
+excerpt: Part 2 of my epic adventures in Sri Lanka with Dina.
 ---
 
 Alright, well it's three months later and I'm finally continuing my tales of adventure in Sri Lanka! The delay has been due to: 1) a promotion at work, 2) starting (and not finishing) three other posts, 3) continual planning of frisbee events (we just finished one at the end of March), 4)... Too much Netflix.
