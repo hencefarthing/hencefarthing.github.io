@@ -3,7 +3,7 @@
     "name": "Hencefarthing - I've Heard It Both Ways",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/_assets/android-chrome-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
