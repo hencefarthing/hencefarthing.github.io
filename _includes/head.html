@@ -1,17 +1,32 @@
-<script type="text/javascript" src="{{ site:baseurl }}/_js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="{{ site:baseurl }}/_js/bigfoot.min.js"></script>
+<script
+    type="text/javascript"
+    src="{{ site:baseurl }}/_js/jquery-2.1.1.min.js"
+></script>
+<script
+    type="text/javascript"
+    src="{{ site:baseurl }}/_js/bigfoot.min.js"
+></script>
 
-<script type="text/javascript">jQuery.bigfoot();</script>
+<script type="text/javascript">
+    jQuery.bigfoot();
+</script>
 
-<script type="text/javascript">$.bigfoot({ numberResetSelector: "div.post" })</script>
+<script type="text/javascript">
+    $.bigfoot({ numberResetSelector: "div.post" });
+</script>
 
 <!--jquery for mobile menu-->
 <!--<script type="text/javascript"> jQuery(function($) { $( '.menu-btn' ).click(function(){ $('.responsive-menu').toggleClass('expand') }) }) </script>-->
 
-<link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="alternate" title="{{ site.title }}" type="application/json" href="{{
+    "/feed.json" | prepend: site.baseurl | prepend: site.url
+}}" />
 
 <!--for pingdom monitoring-->
-<script src="//rum-static.pingdom.net/pa-5a84e50746534f000700027a.js" async></script>
+<script
+    src="//rum-static.pingdom.net/pa-5a84e50746534f000700027a.js"
+    async
+></script>
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
@@ -22,10 +37,31 @@
 <!-- all scss imports into style.css in the end -->
 <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bigfoot-default.css" /> -->
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<link
+    rel="alternate"
+    type="application/rss+xml"
+    title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml"
+/>
 
 <!-- Favicon links from https://favicon.io/favicon-generator/  -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/_assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/_assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/_assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="{{ site.baseurl }}/_assets/favicon/site.webmanifest">
+<link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ site.baseurl }}/_assets/favicon/favicon-32x32.png"
+/>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ site.baseurl }}/_assets/favicon/favicon-16x16.png"
+/>
+
+<!-- Manifest & icons for PWA -->
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ site.baseurl }}/_assets/manifest_icons/apple-touch-icon.png"
+/>
+<link rel="manifest" href="{{ site.baseurl }}/_assets/site.webmanifest" />
