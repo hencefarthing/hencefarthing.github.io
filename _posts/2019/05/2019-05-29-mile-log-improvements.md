@@ -16,7 +16,7 @@ Despite Scriptable's superior JavaScript engine I ended up with Drafts, because 
 
 The processing is done using a `Log Miles` action, which consists of a script step and a file step. The script step[^2] grabs the created date of the draft, sets the variable `logDate` to the date before, in the format I want in this file. The last 2 lines set the variable `logEntry` to have the date and mileage and then set that to a template `mileLog`.[^3] Templates can be used in other parts of the Drafts action, simplifying the script.[^4] The file step of my Drafts action just takes that template tag and appends to a file in iCloud. 
 
-'''JavaScript
+'''JavaScript  
 	// create new date object with draft's create time
 	var d = new Date(draft.createdAt);
 	
@@ -25,7 +25,7 @@ The processing is done using a `Log Miles` action, which consists of a script st
 	
 	// create template tag with date and miles logged
 	var logEntry = logDate + "," + draft.content;
-	draft.setTemplateTag("mileLog", logEntry);
+	draft.setTemplateTag("mileLog", logEntry);  
 '''
 
 I've been using the new approach for over two weeks and loving it. There are still improvements to be made, but it's good enough for now.
