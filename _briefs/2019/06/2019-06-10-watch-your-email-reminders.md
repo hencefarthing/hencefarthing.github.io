@@ -12,12 +12,12 @@ How do I do this?
 1. Open Gmail settings
 1. Add a _Forwarding Address_ (the email address you want everything sent to)
     - Confirm the forwarding address
-1. Confirm allowing emails to be fowarded to your personal address (check your person email)
+1. Confirm allowing emails to be fowarded to your personal address (via your personal email)
     - You may have to confirm _again_
 1. Create a filter on your friend's account
     - From `"me"`
     - Click "Create Filter"
-    - Forward it to: `<your person address>`
+    - Forward it to: `<your personal address>`
     - Click "Create Filter"
 
 Now you're done! Happy reading!
