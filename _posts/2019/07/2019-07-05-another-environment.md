@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Alex B
-title: Multiple Environments means Multiple Phun
+title: Multiple Environments === Multiple Phun
 categories: code fun
 excerpt: How I connected a single GitHub repo to multiple Netlify deploys with unique Firebase projects.
 ---
@@ -32,17 +32,17 @@ Source: [W3Schools - What is GitHub](https://www.w3schools.com/whatis/whatis_git
 
 ## How and why do I use GitHub?
 
-*<u>Ease of collaboration</u>*: Github makes collaboration on many projects incredibly simple. When working with friends or colleagues, everyone can be a direct editor of a project, or in GitHub's terms, a _"repository"_. Everyone can submit changes to make new features, fix errors, or anything else. Whenever a change has been added, all members of the project can see the edits made so everyone stays up to date. GitHub is even smart enough to not let one user update the repository if someone else has recently edited it, _until_ the second person updates their local code (by typing a simple command). This helps members make sure they don't overwrite someone else's work. GitHub's ease of collaboration also enables millions of projects (repositories) to be open to the public, free for anyone to edit and use! For example, the code & text editor I'm using right now to write this post ([Visual Studio Code](https://github.com/microsoft/vscode)) is an incredibly popular product, and everyone can see its code! If you think you found a problem with the program, or if there's a new feature you want to be implemented, you can send the original creators a comment - or you can even try to make the change yourself :)
+_<u>Ease of collaboration</u>_: Github makes collaboration on many projects incredibly simple. When working with friends or colleagues, everyone can be a direct editor of a project, or in GitHub's terms, a _"repository"_. Everyone can submit changes to make new features, fix errors, or anything else. Whenever a change has been added, all members of the project can see the edits made so everyone stays up to date. GitHub is even smart enough to not let one user update the repository if someone else has recently edited it, _until_ the second person updates their local code (by typing a simple command). This helps members make sure they don't overwrite someone else's work. GitHub's ease of collaboration also enables millions of projects (repositories) to be open to the public, free for anyone to edit and use! For example, the code & text editor I'm using right now to write this post ([Visual Studio Code](https://github.com/microsoft/vscode)) is an incredibly popular product, and everyone can see its code! If you think you found a problem with the program, or if there's a new feature you want to be implemented, you can send the original creators a comment - or you can even try to make the change yourself :)
 
-*<u>Version control</u>*: Version Control is another amazing feature of GitHub. Any time someone makes a change to a GitHub repository, a message must be added to the change, by the user. This message will be stored chronologically in GitHub, so anyone can see the exact order in which files have been changed. If someone finds out a change has caused some issues in the project, or if some feature is not ready to be released, GitHub makes it simple to revert the project back to any previous point in time. Back when I first started programming, I remember a time when I was working on a really cool project (like a super basic calculator, in python). I didn't know about GitHub at the time, so I was just making change on my local computer. After a few weeks of working on the calculator, I realized I broke something pretty badly, but I couldn't remember all of the recent changes I made, nor could I rememeber what the code looked like when it worked! Having GitHub's version control could have helped because I could have seen a history of edits I had made, and I could have reverted the project back to a time when it worked.
+_<u>Version control</u>_: Version Control is another amazing feature of GitHub. Any time someone makes a change to a GitHub repository, a message must be added to the change, by the user. This message will be stored chronologically in GitHub, so anyone can see the exact order in which files have been changed. If someone finds out a change has caused some issues in the project, or if some feature is not ready to be released, GitHub makes it simple to revert the project back to any previous point in time. Back when I first started programming, I remember a time when I was working on a really cool project (like a super basic calculator, in python). I didn't know about GitHub at the time, so I was just making change on my local computer. After a few weeks of working on the calculator, I realized I broke something pretty badly, but I couldn't remember all of the recent changes I made, nor could I rememeber what the code looked like when it worked! Having GitHub's version control could have helped because I could have seen a history of edits I had made, and I could have reverted the project back to a time when it worked.
 
 <img src="/images/GitHub-commits.jpg" alt="GitHub version control + collaboration" />
 
-*<u>Built-in project management tools</u>*: Issue tracking is an incredibly useful project tool which comes out of the box with GitHub. You can easily create an "issue" as a member of the project _or_ as an outside observer! Here, my team keeps track of bugs in our code, features we'd like to build in the future, or some notes we need to remember to investigate later. It can be difficult to stay in sync with issues in your code if you use software that doesn't automatically hook up with your code base, so luckily GitHub has an amazing solution for that :)
+_<u>Built-in project management tools</u>_: Issue tracking is an incredibly useful project tool which comes out of the box with GitHub. You can easily create an "issue" as a member of the project _or_ as an outside observer! Here, my team keeps track of bugs in our code, features we'd like to build in the future, or some notes we need to remember to investigate later. It can be difficult to stay in sync with issues in your code if you use software that doesn't automatically hook up with your code base, so luckily GitHub has an amazing solution for that :)
 
 <img src="/images/GitHub-issues.jpg" alt="GitHub issue list" />
 
-*<u>Ecosystem of apps</u>*: Finally, GitHub released an API that allows developers to build additional apps on top of their already incredible system. Currently my team uses two apps that connect directly with our GitHub repository: [Fire](https://github.com/FundersClub/fire) and [Dependabot](https://dependabot.com/). Fire allows us to create GitHub issues just by sending an email to a given email address. In my project, we leveraged this by allowing users to report issues via email, and we made one email designated for creating automatic issues in our repository. Dependabot (which recently was bought by GitHub), is an incredible app that helps keep your repository up to date and secure. Every day (configurable) it will check to make sure your project is not using any out-dated or insecure code from other developers. This app gets into a specific file (`package.json`) which is a bit complicated for this post, so ask me if you have questions :)
+_<u>Ecosystem of apps</u>_: Finally, GitHub released an API that allows developers to build additional apps on top of their already incredible system. Currently my team uses two apps that connect directly with our GitHub repository: [Fire](https://github.com/FundersClub/fire) and [Dependabot](https://dependabot.com/). Fire allows us to create GitHub issues just by sending an email to a given email address. In my project, we leveraged this by allowing users to report issues via email, and we made one email designated for creating automatic issues in our repository. Dependabot (which recently was bought by GitHub), is an incredible app that helps keep your repository up to date and secure. Every day (configurable) it will check to make sure your project is not using any out-dated or insecure code from other developers. This app gets into a specific file (`package.json`) which is a bit complicated for this post, so ask me if you have questions :)
 
 # [Firebase](https://firebase.google.com/)
 
@@ -54,11 +54,11 @@ Source: [Hacker Noon - Introduction to Firebase](https://hackernoon.com/introduc
 
 ## How and why do I use Firebase?
 
-*<u>Authentication made easy</u>*: There are many ways to set up "user authentication" in an application, but what's the most secure way? Hashing a user's password on the client side? OR server side? What kind of password encryption is the best and how can this be implemented in the most secure way possible? Most of these questions can be disregarded when you use Firebase authentication. Firebase gives people some simple functions for creating and managing users, storing user data, and keeping everything secure. It even supports authentication from many major providers like Google, Facebook, GitHub, and more!
+_<u>Authentication made easy</u>_: There are many ways to set up "user authentication" in an application, but what's the most secure way? Hashing a user's password on the client side? OR server side? What kind of password encryption is the best and how can this be implemented in the most secure way possible? Most of these questions can be disregarded when you use Firebase authentication. Firebase gives people some simple functions for creating and managing users, storing user data, and keeping everything secure. It even supports authentication from many major providers like Google, Facebook, GitHub, and more!
 
-*<u>Simple management console</u>*: Firebase comes with a user-friendly console where users can manage absolutely everything about their project. The console includes settings for features like Authentication (explained above), Database (two types), File Storage, Server Hosting, Functions (explained below), and many more features that I haven't had time to try out! Althought it can look a bit overwhelming at first, the console is packed with incredibly useful tools that help developers efficiently create apps in one central environment. 
+_<u>Simple management console</u>_: Firebase comes with a user-friendly console where users can manage absolutely everything about their project. The console includes settings for features like Authentication (explained above), Database (two types), File Storage, Server Hosting, Functions (explained below), and many more features that I haven't had time to try out! Althought it can look a bit overwhelming at first, the console is packed with incredibly useful tools that help developers efficiently create apps in one central environment.
 
-*<u>No-SQL database</u>*: Sorry in advance, this point may get a bit technical. Basically, the main types of database apps and websites store data in are [SQL](https://www.w3schools.com/sql/sql_intro.asp) or [No-SQL](https://www.mongodb.com/nosql-explained). Since there are many articles written explaining the [similarities and differences](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/) between the [two types of databases](https://medium.com/swlh/should-you-use-nosql-or-sql-db-or-both-349cb26c9add), I will not be explaining this 😜 The reason I'm including this point here is because I want to mention how much I love No-SQL. The format of data sent to and returned from Firebase's No-SQL database is `JSON` (JavaScript Object Notation), which is great! You basically just create a JavaScript object, load it with whatever data you want, and send it off to the database! So easy and lovely!
+_<u>No-SQL database</u>_: Sorry in advance, this point may get a bit technical. Basically, the main types of database apps and websites store data in are [SQL](https://www.w3schools.com/sql/sql_intro.asp) or [No-SQL](https://www.mongodb.com/nosql-explained). Since there are many articles written explaining the [similarities and differences](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/) between the [two types of databases](https://medium.com/swlh/should-you-use-nosql-or-sql-db-or-both-349cb26c9add), I will not be explaining this 😜 The reason I'm including this point here is because I want to mention how much I love No-SQL. The format of data sent to and returned from Firebase's No-SQL database is `JSON` (JavaScript Object Notation), which is great! You basically just create a JavaScript object, load it with whatever data you want, and send it off to the database! So easy and lovely!
 
 # [Netlify](https://www.netlify.com/)
 
@@ -70,15 +70,15 @@ Source: [Crunchbase - Netlify](https://www.crunchbase.com/organization/netlify)
 
 ## How and why do I use Netlify?
 
-*<u>Hosts static sites directly from GitHub</u>*:  With only a few simple steps, a developer (like me) can start viewing a website from code in a GitHub respository. This means I can write some code for a website, store it in a GitHub repository, connect that repository to Netlify, and **_shazam_** my website is up and running for anyone to view! This is much simpler than hosting your website code on a server like [GoDaddy](https://ae.godaddy.com/hosting/web-hosting) [^3].
+_<u>Hosts static sites directly from GitHub</u>_: With only a few simple steps, a developer (like me) can start viewing a website from code in a GitHub respository. This means I can write some code for a website, store it in a GitHub repository, connect that repository to Netlify, and **_shazam_** my website is up and running for anyone to view! This is much simpler than hosting your website code on a server like [GoDaddy](https://ae.godaddy.com/hosting/web-hosting) [^3].
 
-*<u>Free HTTPS hosted</u>*: With absolutely no extra configuration at all, Netlify hosts your website over HTTPS! The importance of HTTPS is highlighted in this [Netlify article](https://www.netlify.com/blog/2014/10/03/five-reasons-you-want-https-for-your-static-site/) and this [Google video + article](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https). This is an incredibly useful feature that Netlify provides for free (via [Let's Encrypt](https://letsencrypt.org/)), right out of the box.
+_<u>Free HTTPS hosted</u>_: With absolutely no extra configuration at all, Netlify hosts your website over HTTPS! The importance of HTTPS is highlighted in this [Netlify article](https://www.netlify.com/blog/2014/10/03/five-reasons-you-want-https-for-your-static-site/) and this [Google video + article](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https). This is an incredibly useful feature that Netlify provides for free (via [Let's Encrypt](https://letsencrypt.org/)), right out of the box.
 
-*<u>Multiple sites from one code source</u>*: In Netlify, you can create multiple sites from one code source. I use this to create multiple websites with unique URLs, environment variables, etc. pointing to one GitHub repository. This is fantastic for me because I plan to create a unique website for each CBO to access their data from, and now I can have all of their sites pointing to one single source of code!
+_<u>Multiple sites from one code source</u>_: In Netlify, you can create multiple sites from one code source. I use this to create multiple websites with unique URLs, environment variables, etc. pointing to one GitHub repository. This is fantastic for me because I plan to create a unique website for each CBO to access their data from, and now I can have all of their sites pointing to one single source of code!
 
-*<u>Multiple "Deploys" of every branch / pull request</u>*: It's not the best practice for developers to directly edit code used in live websites, without extensive testing and review. GitHub makes it easy for developers to edit code in an environment that isn't "live" (the main product) by introducing something called ["branches"](https://help.github.com/en/articles/about-branches). In short, branches are copies of "live" code that can be safely edited and tested, then merged into the "live" repository after being tested for errors. Why is this important? Netlify gives users an option to automatically create sites based on every branch in your GitHub repository. This is incredibly useful as it allows team members to test a developer's changes without copying all of the changes to their local computer and running the code - now anyone who wants to test can just open the site for that branch, test, and provide the developer with feedback! Brilliant!
+_<u>Multiple "Deploys" of every branch / pull request</u>_: It's not the best practice for developers to directly edit code used in live websites, without extensive testing and review. GitHub makes it easy for developers to edit code in an environment that isn't "live" (the main product) by introducing something called ["branches"](https://help.github.com/en/articles/about-branches). In short, branches are copies of "live" code that can be safely edited and tested, then merged into the "live" repository after being tested for errors. Why is this important? Netlify gives users an option to automatically create sites based on every branch in your GitHub repository. This is incredibly useful as it allows team members to test a developer's changes without copying all of the changes to their local computer and running the code - now anyone who wants to test can just open the site for that branch, test, and provide the developer with feedback! Brilliant!
 
-*<u>Easily customizable and accessible environment variables</u>*: Users can set custom data that each Netlify site can have access to, without changing any code. This is similar to a database, but this data is usually used to enable / disable certain features to an app, or to provide some secret information like an `api key` or password. I currently use these "environment variables" to store a few settings like Firebase project configuration, some feature flags, and more.
+_<u>Easily customizable and accessible environment variables</u>_: Users can set custom data that each Netlify site can have access to, without changing any code. This is similar to a database, but this data is usually used to enable / disable certain features to an app, or to provide some secret information like an `api key` or password. I currently use these "environment variables" to store a few settings like Firebase project configuration, some feature flags, and more.
 
 # What does this mean?
 
@@ -94,11 +94,11 @@ Thanks so much for reading!
 
 If you're lost at this point, I'm sorry :D I tried to keep things relatively high level for most of the way, but I may have dug too deep here or there.
 
-If you're tracking with me pretty well, keep going! Below I will get *super* technical by showing some configuration and some settings I'm using, just in case you want to try to set this up on your own some day :)
+If you're tracking with me pretty well, keep going! Below I will get _super_ technical by showing some configuration and some settings I'm using, just in case you want to try to set this up on your own some day :)
 
 # Getting technical
 
-So I decided to copy the documentation / steps I wrote in my work project on how to get up and running with a 2nd (or 3rd, 4th, etc...) Netlify / Firebase combined environment. I tried editing them to be as generic as possible, but if you follow the steps and anything isn't working as planned, *please* let me know :D
+So I decided to copy the documentation / steps I wrote in my work project on how to get up and running with a 2nd (or 3rd, 4th, etc...) Netlify / Firebase combined environment. I tried editing them to be as generic as possible, but if you follow the steps and anything isn't working as planned, _please_ let me know :D
 
 ### Assumptions / Make sure you do this before continuing
 
@@ -148,14 +148,14 @@ So I decided to copy the documentation / steps I wrote in my work project on how
         - Look at the "Environment" section
         - Click "Edit Variables", then add any new environment variable needed.
             - **Note**: At the writing of this article, we currently use 12 environment varialbes, for things like Firebase project settings, feature enabling / disabling, and more. Here's some of our documentation for some of the main ones used to connect Firebase:
-            -   Firebase project config variables (database, storage, auth, etc)
-                -   `REACT_APP_API_KEY: ...`
-                -   `REACT_APP_AUTH_DOMAIN: ...`
-                -   `REACT_APP_BUCKET: ...`
-                -   `REACT_APP_DATABASE_URL: ...`
-                -   `REACT_APP_MSG_SENDER_ID: ...`
-                -   `REACT_APP_PROJECT_ID: ...`
-                - Each of these environment variables correspond to configuration keys in your Firebase Project. To find these keys, follow these steps: 
+            - Firebase project config variables (database, storage, auth, etc)
+                - `REACT_APP_API_KEY: ...`
+                - `REACT_APP_AUTH_DOMAIN: ...`
+                - `REACT_APP_BUCKET: ...`
+                - `REACT_APP_DATABASE_URL: ...`
+                - `REACT_APP_MSG_SENDER_ID: ...`
+                - `REACT_APP_PROJECT_ID: ...`
+                - Each of these environment variables correspond to configuration keys in your Firebase Project. To find these keys, follow these steps:
                     1. Log in to Firebase Console
                     1. Click the gear icon next to "Project Overview"
                     1. Click "Projet Settings"
@@ -165,19 +165,16 @@ So I decided to copy the documentation / steps I wrote in my work project on how
                         - Example: `apiKey: "123...."` -> `REACT_APP_API_KEY: 123...`
                         - Example: `messagingSenderId: "758..."` -> `REACT_APP_MSG_SENDER_ID: 758...`
                         - etc.
-            -   **NOTE**: after adding / editing / removing environment variables, retrigger deployment of the app.
+            - **NOTE**: after adding / editing / removing environment variables, retrigger deployment of the app.
     1. If Netlify auto-deployed (before environment variables added) and build failed, trigger new deploy in "Deploys" -> "Trigger deploy" -> "Deploy site"
 
 Now you should be up and running with a unique url (from Netlify) where you can access your website (code in GitHub), and it should be able to connect to your database (from Firebase).
 
 ❤ Let me know if anything was unclear or didn't work for you! Happy coding! ❤
 
-*Disclaimer: to create the second Netlify deploy + Firebase project using the same GitHub repo, we had to add some more advanced techniques (using a custom `npm` script with `firebase use <project alias>`). To explain this, I'd have to get into discussing the [node package manager](https://www.sitepoint.com/beginners-guide-node-package-manager/) which may lead to explaining [nodejs](https://nodejs.org/en/about/) so I intentionally left that out - maybe i'll add that another day* 😜
+_Disclaimer: to create the second Netlify deploy + Firebase project using the same GitHub repo, we had to add some more advanced techniques (using a custom `npm` script with `firebase use <project alias>`). To explain this, I'd have to get into discussing the [node package manager](https://www.sitepoint.com/beginners-guide-node-package-manager/) which may lead to explaining [nodejs](https://nodejs.org/en/about/) so I intentionally left that out - maybe i'll add that another day_ 😜
 
 [^1]: Actually, originally my new position was going to be called _"IT Systems Coordinator"_ but that was too similar to the already existing position _"IT Coordinator"_ and I did **NOT** want to share responsibility for all of my organization's IT issues...
-
 [^2]: Maybe I should just be called a _"software development"_ coordinator, but that title seemed a bit limiting. Hopefully over the next year I'll begin to truly feel what a System Development Coordinator can be.
-
 [^3]: As I was writing this, I did a tiny bit of research into [AWS Amplify Console](https://aws.amazon.com/amplify/console/) which "provides a Git-based workflow for deploying and hosting fullstack serverless web applications" which seems nice, has a free tier, and may be simple to set up as well 😮
-
 [^4]: Wow this took me a month to finish!! Yikes...
