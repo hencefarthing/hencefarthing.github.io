@@ -1,6 +1,6 @@
 ---
 layout: brief
-author: Kayla G
+author: Kayla Gee
 title: Creative Ideas
 categories: 
 excerpt: A quest post.
