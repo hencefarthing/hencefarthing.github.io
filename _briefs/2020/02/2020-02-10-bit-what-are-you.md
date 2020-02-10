@@ -11,8 +11,8 @@ The other day I came across a [`bitly`][1] link I _really_ wanted to click on. I
 
 That's all?? Yes indeedy! To test, try these links to the `bitly` blog:
 
--   http://bitly.com/Wn2Xdz <- Go directly to the site (Normally you don't know which site you'll be redirected to, so be careful!)
--   http://bitly.com/Wn2Xdz+ <- Preview the URL `bitly` will redirect you to, and see other details about the link.
+-   [http://bitly.com/Wn2Xdz](http://bitly.com/Wn2Xdz) <- Go directly to the site (Normally you don't know which site you'll be redirected to, so be careful!)
+-   [http://bitly.com/Wn2Xdz+](http://bitly.com/Wn2Xdz+) <- Preview the URL `bitly` will redirect you to, and see other details about the link.
 
 Hopefully this comes in handy some day for any readers out there :) Stay safe when clicking those links!
 
