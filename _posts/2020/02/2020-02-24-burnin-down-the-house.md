@@ -59,10 +59,10 @@ First we checked out my roommate's bedroom... My landlady's niece's voice came t
 
 At this point, I was scared to see what happened in my room...
 
-My room was across the hall and luckily <prayer hands> I had closed my door in the morning, so the fire had spent much less time partying in my room. The fire got into my room by bursting through the frosted-glass pane on my door. From there, it seems like it had quickly made its way to the ceiling where it destroyed the AC unit, caused a few little cave-ins, and knocked a few pictures off the wall. Luckily 🙏, almost nothing of mine was destroyed. My passport had been sitting on my dresser, but one of the pictures had fallen on it, protecting it from heat. All of my cash was safe in my bedside table. My clothes had chunks of ceiling and wall scattered through them (and yeah, even to this day some smell like smoke), but 99% remained unscathed. **_I got so lucky..._**
+My room was across the hall and luckily <prayer hands> I had closed my door in the morning, so the fire had spent much less time partying in my room. The fire got into my room by bursting through the frosted-glass pane on my door. From there, it seems like it had quickly made its way to the ceiling where it destroyed the AC unit, caused a few little cave-ins, and knocked a few pictures off the wall. Luckily 🙏, almost nothing of mine was destroyed. My passport had been sitting on my dresser, but one of the pictures had fallen on it, protecting it from heat. All of my cash was safe in my bedside table. My clothes had chunks of ceiling and wall scattered through them (and yeah, even to this day some smell like smoke), but 99% remained unscathed. _I got so lucky..._
 
-<img src="/images/apt-fire/my-door.jpg" alt="alex door" width="49.5%" />
 <img src="/images/apt-fire/bathroom-and-my-room.jpg" alt="bathroom and alex room" width="49.5%" />
+<img src="/images/apt-fire/my-door.jpg" alt="alex door" width="49.5%" />
 
 ## The Exit
 
