@@ -142,7 +142,7 @@ Thanks again for reading, have a lovely day :)
 
 P.S. Here's a map of distances **to** my office **from** my old apartment, the AirBNB I rented for 2 weeks, and my new place with Chase & Jen:
 
-<img src="/images/apt-fire/map.png" alt="map of distances" />
+<img src="/images/apt-fire/map.jpeg" alt="map of distances" />
 
 P.P.S. And here's a few final pictures from the fire, in case the above have not been enough :)
 
