@@ -48,21 +48,21 @@ Once I arrived at the metro station by my house, I called my roommate and we met
 
 We arrived at the doorstep to our apartment and the initial view was shocking. The ceiling was black and some chunks had fallen to the floor, and the rest of the room was white from fire extinguisher residue and ash. Looking around the living room, I felt a combination of distress and relief. _Thank goodness, not everything was destroyed._
 
-<img src="/images/apt-fire/entrance.jpg" alt="entrance" width="49.5%" />
+<img src="/images/apt-fire/entrance.jpg" alt="entrance" width="49.4%" style="display: block;margin: 0 auto;" />
 
 First we checked out my roommate's bedroom... My landlady's niece's voice came to my head - `"Everything was destroyed"`. The only recognizable item was the metal heater that may have started this whole mess. The old matress? _Disintegrated_. The dresser and cabinent? _Burnt to crisps_. The bedside table? _Gone_. My roommate was literally left with _nothing_. By the time we arrived, there were some guys literally digging up the floor in the room. The walls were falling apart and even floorboards had burned up.
 
-<img src="/images/apt-fire/roommate-1.jpg" alt="roommate room 1" width="49.5%" />
-<img src="/images/apt-fire/roommate-2.jpg" alt="roommate room 2" width="49.5%" />
-<img src="/images/apt-fire/roommate-3.jpg" alt="roommate room 3" width="49.5%" />
-<img src="/images/apt-fire/roommate-4.jpg" alt="roommate room 4" width="49.5%" />
+<img src="/images/apt-fire/roommate-1.jpg" alt="roommate room 1" width="49.4%" />
+<img src="/images/apt-fire/roommate-2.jpg" alt="roommate room 2" width="49.4%" />
+<img src="/images/apt-fire/roommate-3.jpg" alt="roommate room 3" width="49.4%" />
+<img src="/images/apt-fire/roommate-4.jpg" alt="roommate room 4" width="49.4%" />
 
 At this point, I was scared to see what happened in my room...
 
 My room was across the hall and luckily <prayer hands> I had closed my door in the morning, so the fire had spent much less time partying in my room. The fire got into my room by bursting through the frosted-glass pane on my door. From there, it seems like it had quickly made its way to the ceiling where it destroyed the AC unit, caused a few little cave-ins, and knocked a few pictures off the wall. Luckily 🙏, almost nothing of mine was destroyed. My passport had been sitting on my dresser, but one of the pictures had fallen on it, protecting it from heat. All of my cash was safe in my bedside table. My clothes had chunks of ceiling and wall scattered through them (and yeah, even to this day some smell like smoke), but 99% remained unscathed. _I got so lucky..._
 
-<img src="/images/apt-fire/bathroom-and-my-room.jpg" alt="bathroom and alex room" width="49.5%" />
-<img src="/images/apt-fire/my-door.jpg" alt="alex door" width="49.5%" />
+<img src="/images/apt-fire/bathroom-and-my-room.jpg" alt="bathroom and alex room" width="49.4%" />
+<img src="/images/apt-fire/my-door.jpg" alt="alex door" width="49.4%" />
 
 ## The Exit
 
@@ -146,10 +146,10 @@ P.S. Here's a map of distances **to** my office **from** my old apartment, the A
 
 P.P.S. And here's a few final pictures from the fire, in case the above have not been enough :)
 
-<img src="/images/apt-fire/cleaning-closet.jpg" alt="cleaning closet" width="49.5%" />
-<img src="/images/apt-fire/my-door2.jpg" alt="my door 2" width="49.5%" />
-<img src="/images/apt-fire/ac-unit.jpg" alt="ac unit" width="49.5%" />
-<img src="/images/apt-fire/fire-fighters.jpg" alt="fire-fighters in egypt!" width="49.5%" />
+<img src="/images/apt-fire/cleaning-closet.jpg" alt="cleaning closet" width="49.4%" />
+<img src="/images/apt-fire/my-door2.jpg" alt="my door 2" width="49.4%" />
+<img src="/images/apt-fire/ac-unit.jpg" alt="ac unit" width="49.4%" />
+<img src="/images/apt-fire/fire-fighters.jpg" alt="fire-fighters in egypt!" width="49.4%" />
 
 [^1]: Information Technology, for those of you who don't understand the acronym. _Hmmm, will anyone with IT challenges be able to find this sneaky popup definition?_
 [^2]: One fantastic benefit of facilitating trainings for CBOs is that facilitators get _free lunch_ on training days!
