@@ -6,9 +6,9 @@ categories: essays
 excerpt: On being OK and normalizing hard times.
 ---
 
-What does "OK" mean? I was talking to my great friend[^friend? cousin? whatever] Becca about this recently, and the convensation moved on before we came up with a definition. But Becca did have interesting things to say about how we use "OK" these days. And I think its time that we stop saying "OK" all together.  
+What does "OK" mean? I was talking to my great friend[^2] Becca about this recently, and the convensation moved on before we came up with a definition. But Becca did have interesting things to say about how we use "OK" these days. And I think its time that we stop saying "OK" all together.  
 
-The way that most people use "OK" most of the time[^ citation needed] is as part of a ritual greeting:   
+The way that most people use "OK" most of the time[^1] is as part of a ritual greeting:   
 > "hello. How are you?"  
 > "I'm OK, how about you?"  
 > "Oh, I'm fine"  
@@ -23,3 +23,6 @@ So I’m going to my part to fix things. I’m never going back to "OK".
 When someone asks me how I’m doing, I’m going to give an honest answer. When I ask other people how they are doing, I’ll be ready for an honest answer and to be supportive of people who need it.  
 
 In fact, I'll start now. I’m tired, frustrated with myself, and overly worried about things outside my control. But I feel a lot better and more hopeful after this weekend; I’m happy to have such wonderful people in my life and I’m determined to make the best of the present moment and take ownership of the things I can control.
+
+[^1]: citation needed
+[^2]: friend? cousin? whatever
