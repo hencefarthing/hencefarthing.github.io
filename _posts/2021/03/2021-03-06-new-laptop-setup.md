@@ -157,11 +157,11 @@ Ok so we have the _why_, now the _how_. This could probably be an entire tutoria
 
     Now your output should look a bit better! Here's what mine looks like now:
 
-    <img src="/images/code/terminal-edit-1.png" alt="terminal after edit 1" width="50%" style="display: block;margin: 0 auto;" />
+    <img src="/images/code/terminal-edit-1.png" alt="terminal after edit 1" width="75%" style="display: block;margin: 0 auto;" />
 
     Feel free to mess around with removing `@\h` or changing your text. I will be adding a few more modifications to this line as we go.
 
-> Note: Any time you update your `.bash_profile` file, you will have to restart your terminal (or open a new one) to see the effects. You can also type `source ~/.bash_profile` to refresh your current terminal window.
+    > Note: Any time you update your `.bash_profile` file, you will have to restart your terminal (or open a new one) to see the effects. You can also type `source ~/.bash_profile` to refresh your current terminal window.
 
 3. Modifying the final character.
 
@@ -207,7 +207,7 @@ Ok so we have the _why_, now the _how_. This could probably be an entire tutoria
 
     Here's what I've got now:
 
-    <img src="/images/code/terminal-edit-2.png" alt="terminal after edit 2" width="50%" style="display: block;margin: 0 auto;" />
+    <img src="/images/code/terminal-edit-2.png" alt="terminal after edit 2" width="75%" style="display: block;margin: 0 auto;" />
 
 So that was a ton of fun! If you want to learn more and dive deep into terminal modifications, check out [these docs](http://www.gnu.org/software/bash/manual/bash.html#Controlling-the-Prompt), and more resources linked to in my code below.
 
